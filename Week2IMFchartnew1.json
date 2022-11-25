@@ -8,7 +8,7 @@
       "anchor": "start",
       "color": "black"},
   
-  "data":{"url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/week2taskcsv1__.csv"},
+  "data":{"url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/week2taskcsv1new1.csv"},
   
 "transform": [
 {"calculate": "datum. Totals/1000000000", "as": "billions"}
