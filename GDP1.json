@@ -13,8 +13,8 @@
     {"filter": "datum.year<maxYear"}
   ],
   "title": {
-    "text": "Gross Domestic Product (GDP)",
-    "subtitle": "At market prices (£m). Source: ONS",
+    "text": "UK Gross Domestic Product",
+    "subtitle": "Measured at market prices (£m). Source: ONS",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
