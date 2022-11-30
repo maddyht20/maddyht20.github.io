@@ -19,7 +19,7 @@
 "encoding":
 {
 "x":{"field":"Year","sort":"-x","type":"temporal","title":null},
-"y":{"field":"Gross savings (% of GDP)","title":null,"type":"quantitative","scale":{"domain":[0,100]}
+"y":{"field":"Gross savings (% of GDP)","title":null,"type":"quantitative","scale":{"domain":[0,130]}
 },
 "color":{"field":"Country Name","type":"nominal","scale":{"domain":["Canada","Saudi Arabia", "Senegal"],"range":["#03f7b8","#899fdb","#422b39"]},"title":null}
 }}
