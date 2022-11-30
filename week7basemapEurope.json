@@ -29,7 +29,7 @@
   
       "encoding": {
         "tooltip":{
-          "field": "properties.geounit", "type": "nominal", "title": "Country"}
+          "field": "properties.NAME", "type": "nominal", "title": "Country"}
         
       }
   
