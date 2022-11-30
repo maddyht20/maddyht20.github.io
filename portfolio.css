@@ -53,7 +53,13 @@ text-align: justify;
   border-style: solid;
   border-radius: 5px;
   border-color:#25273a;
+}
 
+}
+.grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   width: 150%;
 }
 
 /*Hyperlinks */
