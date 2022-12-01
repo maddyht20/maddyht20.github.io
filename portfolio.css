@@ -46,11 +46,11 @@ text-align: justify;
 /* Set the apperance of the class, chart */
 .chart{
   background-color:rgb(255, 255, 255);
-  width:400px;
+  width:500px;
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;
-  border-color:#25273a;
+  border-color:#e1e1e7;
 }
 
  #myChart8{
