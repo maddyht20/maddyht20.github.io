@@ -357,26 +357,6 @@ a:active {
 }
 
 
-.chart {
-    
-  background-color: rgb(0, 255, 255);
-  width: auto;
-  min-width: auto;
-  align-items: center;
-  justify-content: center;
-  position:static;
-  margin-left: 10px;
-  margin-top: 10px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 3px;
-  border-radius: 30px;
-  text-align: center;
-  padding: 10px;
-  flex-flow: row wrap;
-  
-}
-
 .chart:hover {
     
       transform: scale(1.04, 1.04);
