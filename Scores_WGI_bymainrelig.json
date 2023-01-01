@@ -6,7 +6,7 @@
     "title": {
       "text": "World Giving Index Scores 2022 by each country's main religion",
       "subtitle": [
-        "Source: Everycountryintheworld.com",
+        "Sources: CAF and Everycountryintheworld.com",
         ""
         ],
       "subtitleFontStyle": "italic",
@@ -62,7 +62,7 @@
       },
 
       "color": {
-        "field": "2022", "type": "nominal", "title": "Main Religion:", "scale": {"scheme": "set2"}
+        "field": "2022", "type": "nominal", "title": "Main Religion:", "scale": {"scheme": "turbo"}
       },
 
    "tooltip": [
