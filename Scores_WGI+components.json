@@ -48,7 +48,16 @@
 ],
 "vconcat": [
   {
-    "title": "Map 1 - World Giving Index Overall Score, 2018-2022",
+    "title": {
+      "text": "Map 1 - World Giving Index Overall Score, 2018-2022",
+      "subtitle": [
+        "Source: CAF",
+        ""
+        ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "color": "black"
+    },
     "width": 600,
 
     "data": {
@@ -99,7 +108,16 @@
 }
 },
 {
-  "title": "Map 2 - 'Helping a Stranger' Score, 2018-2022",
+    "title": {
+    "text": "Map 2 - 'Helping a Stranger' Score, 2018-2022",
+    "subtitle": [
+      "Source: CAF",
+      ""
+      ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "color": "black"
+    },
   "width": 600,
 
 "data": {
@@ -149,7 +167,16 @@
 }
 },
 {
-    "title": "Map 3 - 'Donating Money' Score, 2018-2022",
+    "title": {
+    "text": "Map 3 - 'Donating Money' Score, 2018-2022",
+    "subtitle": [
+      "Source: CAF",
+      ""
+      ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "color": "black"
+    },
     "width": 600,
 
     "data": {
@@ -199,7 +226,16 @@
 }
 },
 {
-  "title": "Map 4 - 'Volunteering Time' Score, 2018-2022",
+"title": {
+  "text": "Map 4 - 'Volunteering Time' Score, 2018-2022",
+  "subtitle": [
+    "Source: CAF",
+    ""
+    ],
+  "subtitleFontStyle": "italic",
+  "subtitleFontSize": 10,
+  "color": "black"
+  },
   "width": 600,
 
 "data": {
