@@ -3,7 +3,7 @@
       "description": "Graph showing mean CAF World Giving Index Scores for countries grouped by main religion, 2022",
 
     "title": {
-      "text": "Mean CAF World Giving Index scores for countries grouped by main religion, 2022",
+      "text": "Mean World Giving Index Scores 2022 for countries grouped by main religion",
       "subtitle": [
         "Sources: CAF and Everycountryintheworld.com",
         ""],
@@ -13,7 +13,7 @@
       "color": "black"
     },
   "data": {
-    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/MainReligion%2BCAF_output_nona%3D.csv"
+    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_MainReligion_2022_Chart6.csv"
   },
     "height": 300,
     "width": 400,
