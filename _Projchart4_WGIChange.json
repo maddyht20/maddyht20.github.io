@@ -43,7 +43,9 @@
       "axis": {
         "offset": 4,
         "ticks": false,
-        "domain": false
+        "domain": false,
+        "labelAngle": 0,
+        "labelFontSize": 9
       }
     }
   },
