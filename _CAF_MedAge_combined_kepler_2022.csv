@@ -1,0 +1,202 @@
+Country,MedianAge,TotalPopulation,CAF
+China,38,1439323776,42.0
+India,28,1380004385,40.0
+United States of America,38,331002651,59.0
+Indonesia,30,273523615,68.0
+Pakistan,23,220892340,29.0
+Brazil,33,212559417,47.0
+Nigeria,18,206139589,48.0
+Bangladesh,28,164689383,
+Russian Federation,40,145934462,46.0
+Mexico,29,128932753,44.0
+Japan,48,126476461,20.0
+Ethiopia,19,114963588,
+Philippines,26,109581078,47.0
+Egypt,25,102334404,23.0
+Viet Nam,32,97338579,
+"Congo, Democratic Republic of the",17,89561403,
+Türkiye,32,84339067,40.0
+Iran (Islamic Republic of),32,83992949,43.0
+Germany,46,83783942,41.0
+Thailand,40,69799978,48.0
+United Kingdom of Great Britain and Northern Ireland,40,67886011,47.0
+France,42,65273511,32.0
+Italy,47,60461826,29.0
+"Tanzania, United Republic of",18,59734218,
+South Africa,28,59308690,35.0
+Myanmar,29,54409800,52.0
+Kenya,20,53771296,61.0
+"Korea, Republic of",44,51269185,
+Colombia,31,50882891,42.0
+Spain,45,46754778,32.0
+Uganda,17,45741007,46.0
+Argentina,32,45195774,47.0
+Algeria,29,43851044,30.0
+Sudan,20,43849260,
+Ukraine,41,43733762,49.0
+Iraq,21,40222493,37.0
+Afghanistan,18,38928346,21.0
+Poland,42,37846611,47.0
+Canada,41,37742154,51.0
+Morocco,30,36910560,31.0
+Saudi Arabia,32,34813871,36.0
+Uzbekistan,28,33469203,38.0
+Peru,31,32971854,39.0
+Angola,17,32866272,
+Malaysia,30,32365999,
+Mozambique,18,31255435,34.0
+Ghana,22,31072940,43.0
+Yemen,20,29825964,
+Nepal,25,29136808,40.0
+Venezuela (Bolivarian Republic of),30,28435940,45.0
+Madagascar,20,27691018,
+Cameroon,19,26545863,37.0
+Côte d'Ivoire,19,26378274,
+North Korea,35,25778816,
+Australia,38,25499884,55.0
+Niger,15,24206644,
+"Taiwan, Province of China",42,23816775,
+Sri Lanka,34,21413249,44.0
+Burkina Faso,18,20903273,39.0
+Mali,16,20250833,38.0
+Romania,43,19237691,30.0
+Malawi,18,19129952,39.0
+Chile,35,19116201,38.0
+Kazakhstan,31,18776707,34.0
+Zambia,18,18383955,50.0
+Guatemala,23,17915568,
+Ecuador,28,17643054,42.0
+Syrian Arab Republic,26,17500658,
+Netherlands,43,17134872,46.0
+Senegal,19,16743927,40.0
+Cambodia,26,16718965,19.0
+Chad,17,16425864,
+Somalia,17,15893222,
+Zimbabwe,19,14862924,31.0
+Guinea,18,13132795,47.0
+Rwanda,20,12952218,
+Benin,19,12123200,32.0
+Burundi,17,11890784,
+Tunisia,33,11818619,28.0
+Bolivia (Plurinational State of),26,11673021,43.0
+Belgium,42,11589623,
+Haiti,24,11402528,
+Cuba,42,11326616,
+South Sudan,19,11193725,
+Dominican Republic,28,10847910,44.0
+Czechia,43,10708981,48.0
+Greece,46,10423054,32.0
+Jordan,24,10203134,32.0
+Portugal,46,10196709,26.0
+Azerbaijan,32,10139177,
+Sweden,41,10099265,42.0
+Honduras,24,9904607,46.0
+United Arab Emirates,33,9890402,47.0
+Hungary,43,9660351,40.0
+Tajikistan,22,9537645,39.0
+Belarus,40,9449323,
+Austria,43,9006398,45.0
+Papua New Guinea,22,8947024,
+Serbia,42,8737371,46.0
+Israel,30,8655535,37.0
+Switzerland,43,8654622,37.0
+Togo,19,8278724,34.0
+Sierra Leone,19,7976983,51.0
+Hong Kong,45,7496981,37.0
+Lao People's Democratic Republic,24,7275560,
+Paraguay,26,7132538,44.0
+Bulgaria,45,6948445,41.0
+Libya,29,6871292,
+Lebanon,30,6825445,24.0
+Nicaragua,26,6624554,40.0
+Kyrgyzstan,26,6524195,44.0
+El Salvador,28,6486205,36.0
+Turkmenistan,27,6031200,
+Singapore,42,5850342,45.0
+Denmark,42,5792202,46.0
+Finland,43,5540720,37.0
+Congo,19,5518087,
+Slovakia,41,5459642,41.0
+Norway,40,5421241,45.0
+Oman,31,5106626,
+"Palestine, State of",21,5101414,
+Costa Rica,33,5094118,44.0
+Liberia,19,5057681,
+Ireland,38,4937786,49.0
+Central African Republic,18,4829767,
+New Zealand,38,4822233,54.0
+Mauritania,20,4649658,
+Panama,30,4314767,36.0
+Kuwait,37,4270571,
+Croatia,44,4105267,37.0
+"Moldova, Republic of",38,4033963,
+Georgia,38,3989167,31.0
+Eritrea,19,3546421,
+Uruguay,36,3473730,40.0
+Bosnia and Herzegovina,43,3280819,44.0
+Mongolia,28,3278290,46.0
+Armenia,35,2963243,29.0
+Jamaica,31,2961167,46.0
+Qatar,32,2881053,
+Albania,36,2877797,34.0
+Puerto Rico,44,2860853,
+Lithuania,45,2722289,37.0
+Namibia,22,2540905,35.0
+Gambia,18,2416668,
+Botswana,24,2351627,
+Gabon,23,2225734,34.0
+Lesotho,24,2142249,
+North Macedonia,39,2083374,
+Slovenia,45,2078938,39.0
+Guinea-Bissau,19,1968001,
+Latvia,44,1886198,29.0
+Bahrain,32,1701575,
+Equatorial Guinea,22,1402985,
+Trinidad and Tobago,36,1399488,
+Estonia,42,1326535,40.0
+Timor-Leste,21,1318445,
+Mauritius,37,1271768,37.0
+Cyprus,37,1207359,40.0
+Eswatini,21,1160164,
+Djibouti,27,988000,
+Fiji,28,896445,
+Réunion,36,895312,
+Comoros,20,869601,
+Guyana,27,786552,
+Bhutan,28,771608,
+Solomon Islands,20,686884,
+Macao,39,649335,
+Montenegro,39,628066,
+Luxembourg,40,625978,
+Western Sahara,28,597339,
+Suriname,29,586632,
+Cabo Verde,28,555987,
+Micronesia (Federated States of),27,548914,
+Maldives,30,540544,
+Malta,43,441543,45.0
+Brunei Darussalam,32,437479,
+Guadeloupe,44,400124,
+Belize,25,397628,
+Bahamas,32,393244,
+Martinique,47,375265,
+Iceland,37,341243,46.0
+Vanuatu,21,307145,
+French Guiana,25,298682,
+Barbados,40,287375,
+New Caledonia,34,285498,
+French Polynesia,34,280908,
+Mayotte,20,272815,
+Sao Tome and Principe,19,219159,
+Samoa,22,198414,
+Saint Lucia,34,183627,
+Channel Islands,43,173863,
+Guam,31,168775,
+Curaçao,42,164093,
+Kiribati,23,119449,
+Grenada,32,112523,
+Saint Vincent and the Grenadines,33,110940,
+Aruba,41,106766,
+Tonga,22,105695,
+Virgin Islands (U.S.),43,104425,
+Seychelles,34,98347,
+Antigua and Barbuda,34,97929,
