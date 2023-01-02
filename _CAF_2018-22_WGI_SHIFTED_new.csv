@@ -1,0 +1,513 @@
+﻿Country,year,CAF,Increase/Decrease?
+Afghanistan,2018,19,Increase
+Afghanistan,2019,31,Increase
+Afghanistan,2021,,Increase
+Afghanistan,2022,21,Increase
+Albania,2018,26,Increase
+Albania,2019,23,Increase
+Albania,2021,33,Increase
+Albania,2022,34,Increase
+Algeria,2018,28,Increase
+Algeria,2019,,Increase
+Algeria,2021,31,Increase
+Algeria,2022,30,Increase
+Argentina,2018,28,Increase
+Argentina,2019,28,Increase
+Argentina,2021,32,Increase
+Argentina,2022,47,Increase
+Armenia,2018,23,Increase
+Armenia,2019,21,Increase
+Armenia,2021,,Increase
+Armenia,2022,29,Increase
+Australia,2018,59,Decrease
+Australia,2019,56,Decrease
+Australia,2021,49,Decrease
+Australia,2022,55,Decrease
+Austria,2018,44,Increase
+Austria,2019,45,Increase
+Austria,2021,34,Increase
+Austria,2022,45,Increase
+Azerbaijan,2019,24,Increase
+Azerbaijan,2021,,Increase
+Bahrain,2019,,Increase
+Bahrain,2021,45,Increase
+Bangladesh,2019,26,Increase
+Bangladesh,2021,33,Increase
+Belarus,2019,25,Increase
+Belarus,2021,,Increase
+Belgium,2019,36,Increase
+Belgium,2021,21,Increase
+Benin,2018,26,Increase
+Benin,2019,23,Increase
+Benin,2021,29,Increase
+Benin,2022,32,Increase
+Bolivia (Plurinational State of),2018,28,Increase
+Bolivia (Plurinational State of),2019,31,Increase
+Bolivia (Plurinational State of),2021,35,Increase
+Bolivia (Plurinational State of),2022,43,Increase
+Bosnia and Herzegovina,2018,28,Increase
+Bosnia and Herzegovina,2019,,Increase
+Bosnia and Herzegovina,2021,,Increase
+Bosnia and Herzegovina,2022,44,Increase
+Botswana,2019,30,Increase
+Botswana,2021,,Increase
+Brazil,2018,23,Increase
+Brazil,2019,28,Increase
+Brazil,2021,35,Increase
+Brazil,2022,47,Increase
+Bulgaria,2018,22,Increase
+Bulgaria,2019,19,Increase
+Bulgaria,2021,37,Increase
+Bulgaria,2022,41,Increase
+Burkina Faso,2018,29,Increase
+Burkina Faso,2019,25,Increase
+Burkina Faso,2021,,Increase
+Burkina Faso,2022,39,Increase
+C√¥te d'Ivoire,2019,,Increase
+C√¥te d'Ivoire,2021,,Increase
+Cambodia,2018,18,Increase
+Cambodia,2019,24,Increase
+Cambodia,2021,28,Increase
+Cambodia,2022,19,Increase
+Cameroon,2018,34,Increase
+Cameroon,2019,33,Increase
+Cameroon,2021,43,Increase
+Cameroon,2022,37,Increase
+Canada,2018,49,Increase
+Canada,2019,55,Increase
+Canada,2021,38,Increase
+Canada,2022,51,Increase
+Central African Republic,2019,,Increase
+Central African Republic,2021,,Increase
+Chad,2019,25,Increase
+Chad,2021,,Increase
+Chile,2018,34,Increase
+Chile,2019,37,Increase
+Chile,2021,39,Increase
+Chile,2022,38,Increase
+China,2018,17,Increase
+China,2019,16,Increase
+China,2021,28,Increase
+China,2022,42,Increase
+Colombia,2018,29,Increase
+Colombia,2019,35,Increase
+Colombia,2021,35,Increase
+Colombia,2022,42,Increase
+Congo,2019,27,Increase
+Congo,2021,35,Increase
+"Congo, Democratic Republic of the",2019,,Increase
+"Congo, Democratic Republic of the",2021,,Increase
+Costa Rica,2018,34,Increase
+Costa Rica,2019,38,Increase
+Costa Rica,2021,30,Increase
+Costa Rica,2022,44,Increase
+Croatia,2018,20,Increase
+Croatia,2019,21,Increase
+Croatia,2021,30,Increase
+Croatia,2022,37,Increase
+Cyprus,2018,43,Decrease
+Cyprus,2019,41,Decrease
+Cyprus,2021,32,Decrease
+Cyprus,2022,40,Decrease
+Czechia,2018,22,Increase
+Czechia,2019,22,Increase
+Czechia,2021,30,Increase
+Czechia,2022,48,Increase
+Denmark,2018,46,Neither
+Denmark,2019,44,Neither
+Denmark,2021,37,Neither
+Denmark,2022,46,Neither
+Dominican Republic,2018,39,Increase
+Dominican Republic,2019,39,Increase
+Dominican Republic,2021,39,Increase
+Dominican Republic,2022,44,Increase
+Ecuador,2018,24,Increase
+Ecuador,2019,24,Increase
+Ecuador,2021,29,Increase
+Ecuador,2022,42,Increase
+Egypt,2018,26,Decrease
+Egypt,2019,23,Decrease
+Egypt,2021,33,Decrease
+Egypt,2022,23,Decrease
+El Salvador,2018,22,Increase
+El Salvador,2019,25,Increase
+El Salvador,2021,31,Increase
+El Salvador,2022,36,Increase
+Estonia,2018,26,Increase
+Estonia,2019,25,Increase
+Estonia,2021,30,Increase
+Estonia,2022,40,Increase
+Ethiopia,2019,26,Increase
+Ethiopia,2021,44,Increase
+Finland,2018,40,Decrease
+Finland,2019,41,Decrease
+Finland,2021,31,Decrease
+Finland,2022,37,Decrease
+France,2018,32,Neither
+France,2019,30,Neither
+France,2021,25,Neither
+France,2022,32,Neither
+Gabon,2018,24,Increase
+Gabon,2019,27,Increase
+Gabon,2021,26,Increase
+Gabon,2022,34,Increase
+Gambia,2019,,Increase
+Gambia,2021,,Increase
+Georgia,2018,24,Increase
+Georgia,2019,21,Increase
+Georgia,2021,40,Increase
+Georgia,2022,31,Increase
+Germany,2018,46,Decrease
+Germany,2019,43,Decrease
+Germany,2021,30,Decrease
+Germany,2022,41,Decrease
+Ghana,2018,42,Increase
+Ghana,2019,38,Increase
+Ghana,2021,47,Increase
+Ghana,2022,43,Increase
+Greece,2018,17,Increase
+Greece,2019,16,Increase
+Greece,2021,26,Increase
+Greece,2022,32,Increase
+Guatemala,2019,40,Increase
+Guatemala,2021,,Increase
+Guinea,2018,32,Increase
+Guinea,2019,34,Increase
+Guinea,2021,,Increase
+Guinea,2022,47,Increase
+Haiti,2019,40,Increase
+Haiti,2021,,Increase
+Honduras,2018,39,Increase
+Honduras,2019,36,Increase
+Honduras,2021,,Increase
+Honduras,2022,46,Increase
+Hong Kong,2018,44,Decrease
+Hong Kong,2019,,Decrease
+Hong Kong,2021,26,Decrease
+Hong Kong,2022,37,Decrease
+Hungary,2018,23,Increase
+Hungary,2019,23,Increase
+Hungary,2021,31,Increase
+Hungary,2022,40,Increase
+Iceland,2018,48,Decrease
+Iceland,2019,,Decrease
+Iceland,2021,36,Decrease
+Iceland,2022,46,Decrease
+India,2018,22,Increase
+India,2019,26,Increase
+India,2021,44,Increase
+India,2022,40,Increase
+Indonesia,2018,59,Increase
+Indonesia,2019,50,Increase
+Indonesia,2021,69,Increase
+Indonesia,2022,68,Increase
+Iran (Islamic Republic of),2018,45,Decrease
+Iran (Islamic Republic of),2019,41,Decrease
+Iran (Islamic Republic of),2021,39,Decrease
+Iran (Islamic Republic of),2022,43,Decrease
+Iraq,2018,43,Decrease
+Iraq,2019,34,Decrease
+Iraq,2021,39,Decrease
+Iraq,2022,37,Decrease
+Ireland,2018,56,Decrease
+Ireland,2019,56,Decrease
+Ireland,2021,40,Decrease
+Ireland,2022,49,Decrease
+Israel,2018,42,Decrease
+Israel,2019,39,Decrease
+Israel,2021,28,Decrease
+Israel,2022,37,Decrease
+Italy,2018,33,Decrease
+Italy,2019,33,Decrease
+Italy,2021,22,Decrease
+Italy,2022,29,Decrease
+Jamaica,2018,36,Increase
+Jamaica,2019,,Increase
+Jamaica,2021,34,Increase
+Jamaica,2022,46,Increase
+Japan,2018,22,Decrease
+Japan,2019,23,Decrease
+Japan,2021,12,Decrease
+Japan,2022,20,Decrease
+Jordan,2018,30,Increase
+Jordan,2019,25,Increase
+Jordan,2021,26,Increase
+Jordan,2022,32,Increase
+Kazakhstan,2018,28,Increase
+Kazakhstan,2019,26,Increase
+Kazakhstan,2021,28,Increase
+Kazakhstan,2022,34,Increase
+Kenya,2018,54,Increase
+Kenya,2019,47,Increase
+Kenya,2021,58,Increase
+Kenya,2022,61,Increase
+"Korea, Republic of",2019,32,Increase
+"Korea, Republic of",2021,22,Increase
+Kosovo,2018,33,Increase
+Kosovo,2019,31,Increase
+Kosovo,2021,46,Increase
+Kosovo,2022,43,Increase
+Kuwait,2019,,Increase
+Kuwait,2021,,Increase
+Kyrgyzstan,2018,36,Increase
+Kyrgyzstan,2019,33,Increase
+Kyrgyzstan,2021,38,Increase
+Kyrgyzstan,2022,44,Increase
+Lao People's Democratic Republic,2019,,Increase
+Lao People's Democratic Republic,2021,,Increase
+Latvia,2018,19,Increase
+Latvia,2019,22,Increase
+Latvia,2021,25,Increase
+Latvia,2022,29,Increase
+Lebanon,2018,28,Decrease
+Lebanon,2019,30,Decrease
+Lebanon,2021,24,Decrease
+Lebanon,2022,24,Decrease
+Lesotho,2019,,Increase
+Lesotho,2021,,Increase
+Liberia,2019,44,Increase
+Liberia,2021,,Increase
+Libya,2019,,Increase
+Libya,2021,,Increase
+Lithuania,2018,19,Increase
+Lithuania,2019,19,Increase
+Lithuania,2021,28,Increase
+Lithuania,2022,37,Increase
+Luxembourg,2019,40,Increase
+Luxembourg,2021,,Increase
+Madagascar,2019,21,Increase
+Madagascar,2021,,Increase
+Malawi,2018,35,Increase
+Malawi,2019,38,Increase
+Malawi,2021,,Increase
+Malawi,2022,39,Increase
+Mali,2018,28,Increase
+Mali,2019,24,Increase
+Mali,2021,31,Increase
+Mali,2022,38,Increase
+Malta,2018,47,Decrease
+Malta,2019,47,Decrease
+Malta,2021,31,Decrease
+Malta,2022,45,Decrease
+Mauritania,2019,25,Increase
+Mauritania,2021,,Increase
+Mauritius,2018,46,Decrease
+Mauritius,2019,,Decrease
+Mauritius,2021,34,Decrease
+Mauritius,2022,37,Decrease
+Mexico,2018,24,Increase
+Mexico,2019,28,Increase
+Mexico,2021,32,Increase
+Mexico,2022,44,Increase
+"Moldova, Republic of",2019,26,Increase
+"Moldova, Republic of",2021,,Increase
+Mongolia,2018,39,Increase
+Mongolia,2019,38,Increase
+Mongolia,2021,44,Increase
+Mongolia,2022,46,Increase
+Montenegro,2019,20,Increase
+Montenegro,2021,34,Increase
+Morocco,2018,26,Increase
+Morocco,2019,26,Increase
+Morocco,2021,23,Increase
+Morocco,2022,31,Increase
+Mozambique,2018,29,Increase
+Mozambique,2019,,Increase
+Mozambique,2021,,Increase
+Mozambique,2022,34,Increase
+Myanmar,2018,54,Decrease
+Myanmar,2019,58,Decrease
+Myanmar,2021,51,Decrease
+Myanmar,2022,52,Decrease
+Namibia,2018,32,Increase
+Namibia,2019,,Increase
+Namibia,2021,37,Increase
+Namibia,2022,35,Increase
+Nepal,2018,37,Increase
+Nepal,2019,33,Increase
+Nepal,2021,40,Increase
+Nepal,2022,40,Increase
+Netherlands,2018,51,Decrease
+Netherlands,2019,53,Decrease
+Netherlands,2021,37,Decrease
+Netherlands,2022,46,Decrease
+New Zealand,2018,58,Decrease
+New Zealand,2019,57,Decrease
+New Zealand,2021,47,Decrease
+New Zealand,2022,54,Decrease
+Nicaragua,2018,33,Increase
+Nicaragua,2019,30,Increase
+Nicaragua,2021,37,Increase
+Nicaragua,2022,40,Increase
+Niger,2019,24,Increase
+Niger,2021,,Increase
+Nigeria,2018,48,Neither
+Nigeria,2019,42,Neither
+Nigeria,2021,52,Neither
+Nigeria,2022,48,Neither
+North Macedonia,2019,,Increase
+North Macedonia,2021,,Increase
+Norway,2018,50,Decrease
+Norway,2019,,Decrease
+Norway,2021,36,Decrease
+Norway,2022,45,Decrease
+Pakistan,2018,28,Increase
+Pakistan,2019,29,Increase
+Pakistan,2021,25,Increase
+Pakistan,2022,29,Increase
+"Palestine, State of",2019,,Increase
+"Palestine, State of",2021,,Increase
+Panama,2018,30,Increase
+Panama,2019,35,Increase
+Panama,2021,,Increase
+Panama,2022,36,Increase
+Paraguay,2018,34,Increase
+Paraguay,2019,32,Increase
+Paraguay,2021,41,Increase
+Paraguay,2022,44,Increase
+Peru,2018,27,Increase
+Peru,2019,28,Increase
+Peru,2021,34,Increase
+Peru,2022,39,Increase
+Philippines,2018,28,Increase
+Philippines,2019,39,Increase
+Philippines,2021,33,Increase
+Philippines,2022,47,Increase
+Poland,2018,24,Increase
+Poland,2019,25,Increase
+Poland,2021,38,Increase
+Poland,2022,47,Increase
+Portugal,2018,28,Decrease
+Portugal,2019,25,Decrease
+Portugal,2021,20,Decrease
+Portugal,2022,26,Decrease
+Romania,2018,27,Increase
+Romania,2019,24,Increase
+Romania,2021,28,Increase
+Romania,2022,30,Increase
+Russian Federation,2018,25,Increase
+Russian Federation,2019,21,Increase
+Russian Federation,2021,33,Increase
+Russian Federation,2022,46,Increase
+Rwanda,2019,21,Increase
+Rwanda,2021,,Increase
+Saudi Arabia,2018,37,Decrease
+Saudi Arabia,2019,34,Decrease
+Saudi Arabia,2021,35,Decrease
+Saudi Arabia,2022,36,Decrease
+Senegal,2018,28,Increase
+Senegal,2019,28,Increase
+Senegal,2021,35,Increase
+Senegal,2022,40,Increase
+Serbia,2018,21,Increase
+Serbia,2019,19,Increase
+Serbia,2021,35,Increase
+Serbia,2022,46,Increase
+Sierra Leone,2018,47,Increase
+Sierra Leone,2019,42,Increase
+Sierra Leone,2021,,Increase
+Sierra Leone,2022,51,Increase
+Singapore,2018,54,Decrease
+Singapore,2019,35,Decrease
+Singapore,2021,,Decrease
+Singapore,2022,45,Decrease
+Slovakia,2018,28,Increase
+Slovakia,2019,25,Increase
+Slovakia,2021,32,Increase
+Slovakia,2022,41,Increase
+Slovenia,2018,39,Neither
+Slovenia,2019,38,Neither
+Slovenia,2021,28,Neither
+Slovenia,2022,39,Neither
+South Africa,2018,41,Decrease
+South Africa,2019,36,Decrease
+South Africa,2021,41,Decrease
+South Africa,2022,35,Decrease
+South Sudan,2019,,Decrease
+South Sudan,2021,,Decrease
+Spain,2018,36,Decrease
+Spain,2019,32,Decrease
+Spain,2021,27,Decrease
+Spain,2022,32,Decrease
+Sri Lanka,2018,45,Decrease
+Sri Lanka,2019,51,Decrease
+Sri Lanka,2021,34,Decrease
+Sri Lanka,2022,44,Decrease
+Sweden,2018,41,Increase
+Sweden,2019,40,Increase
+Sweden,2021,34,Increase
+Sweden,2022,42,Increase
+Switzerland,2018,45,Decrease
+Switzerland,2019,45,Decrease
+Switzerland,2021,28,Decrease
+Switzerland,2022,37,Decrease
+"Taiwan, Province of China",2019,,Increase
+"Taiwan, Province of China",2021,,Increase
+Tajikistan,2018,42,Decrease
+Tajikistan,2019,36,Decrease
+Tajikistan,2021,45,Decrease
+Tajikistan,2022,39,Decrease
+"Tanzania, United Republic of",2019,,Increase
+"Tanzania, United Republic of",2021,,Increase
+Thailand,2018,34,Increase
+Thailand,2019,42,Increase
+Thailand,2021,46,Increase
+Thailand,2022,48,Increase
+Togo,2018,24,Increase
+Togo,2019,,Increase
+Togo,2021,,Increase
+Togo,2022,34,Increase
+Trinidad and Tobago,2019,,Increase
+Trinidad and Tobago,2021,,Increase
+Tunisia,2018,20,Increase
+Tunisia,2019,24,Increase
+Tunisia,2021,29,Increase
+Tunisia,2022,28,Increase
+Türkiye,2018,20,Increase
+Türkiye,2019,,Increase
+Türkiye,2021,31,Increase
+Türkiye,2022,40,Increase
+Turkmenistan,2019,43,Increase
+Turkmenistan,2021,,Increase
+Uganda,2018,39,Increase
+Uganda,2019,38,Increase
+Uganda,2021,46,Increase
+Uganda,2022,46,Increase
+Ukraine,2018,29,Increase
+Ukraine,2019,24,Increase
+Ukraine,2021,43,Increase
+Ukraine,2022,49,Increase
+United Arab Emirates,2018,51,Decrease
+United Arab Emirates,2019,45,Decrease
+United Arab Emirates,2021,44,Decrease
+United Arab Emirates,2022,47,Decrease
+United Kingdom of Great Britain and Northern Ireland,2018,55,Decrease
+United Kingdom of Great Britain and Northern Ireland,2019,54,Decrease
+United Kingdom of Great Britain and Northern Ireland,2021,41,Decrease
+United Kingdom of Great Britain and Northern Ireland,2022,47,Decrease
+United States of America,2018,58,Increase
+United States of America,2019,58,Increase
+United States of America,2021,,Increase
+United States of America,2022,59,Increase
+Uruguay,2018,30,Increase
+Uruguay,2019,30,Increase
+Uruguay,2021,32,Increase
+Uruguay,2022,40,Increase
+Uzbekistan,2018,36,Increase
+Uzbekistan,2019,41,Increase
+Uzbekistan,2021,40,Increase
+Uzbekistan,2022,38,Increase
+Venezuela (Bolivarian Republic of),2018,26,Increase
+Venezuela (Bolivarian Republic of),2019,23,Increase
+Venezuela (Bolivarian Republic of),2021,35,Increase
+Venezuela (Bolivarian Republic of),2022,45,Increase
+Yemen,2019,17,Increase
+Yemen,2021,,Increase
+Zambia,2018,46,Increase
+Zambia,2019,39,Increase
+Zambia,2021,43,Increase
+Zambia,2022,50,Increase
+Zimbabwe,2018,30,Increase
+Zimbabwe,2019,29,Increase
+Zimbabwe,2021,37,Increase
+Zimbabwe,2022,31,Increase
