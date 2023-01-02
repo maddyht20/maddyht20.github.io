@@ -11,17 +11,20 @@
   },
 
 "data": {
-    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_WGI_SHIFTED_new.csv",
+    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_WGI_SHIFTED_final.csv"
         },
   
   "height": 1500,
   "width": 300,
+
+
   "transform": [
 
     {
       "filter": {
         "field": "year",
-        "oneOf": ["2018", "2022"]
+        "oneOf": ["2018", "2022"],
+        "selection": "IncreaseSelector"
       }
     }
   ],
@@ -60,6 +63,24 @@
         "type": "point",
         "filled": true
       },
+
+      "selection": {
+      "IncreaseSelector": {
+      "type": "single",
+      "fields": ["Increase/Decrease?"],
+      "bind": {
+        "input": "select",
+        "options": [
+        null,
+        "Decrease",
+        "Increase",
+        "Neither"
+        ],
+        "name": "Change:"
+      }
+    }
+  },
+
       "encoding": {
         "tooltip": [
       {
@@ -76,11 +97,11 @@
         "color": {
           "field": "year",
           "type": "nominal",
-          "title": null,
+          "title": "Year",
           "scale": {"scheme": "inferno"}},
         "size": {"value": 50},
         "opacity": {"value": 1},
-        "shape": {"field": "Increase/Decrease?", "type": "nominal"}
+        "shape": {"field": "Increase/Decrease?", "title":"Increase or Decrease?", "type": "nominal"}
         }
       }
     
