@@ -105,10 +105,6 @@
                     <h4>GDP</h4>
                     <p>This first chart tracks UK GDP.</p>
                         <div class="chartw1" id="chartpr1">
-                            <script>
-                                var myChartpr1 = "_Portchart1_GDP1.json";
-                                vegaEmbed('#chartpr1', myChartpr1);
-                            </script>
                         </div>
                     <br></br>
                     <!-- Chart 2 - Population Change (Declining Populations) -->
@@ -516,6 +512,7 @@
 
 <script>
 // Define charts
+var myChartpr1 = "_Portchart1_GDP1.json";
 var myChartpr5 = "_Portchart5_Week3barold.json";
 var myChartpr6 = "_Portchart6_Week3linenew.json";
 var myChartpr8 = "_Portchart8_lf24ONSchart.json";
@@ -529,6 +526,7 @@ var myChartpr15 = "_Portchart8_lf24ONSchart.json";
 var myChartpr16 = "_Portchart8_lf24ONSchart.json";
 
 // Embed charts
+vegaEmbed('#chartpr1', myChartpr1);
 vegaEmbed('#chartpr5', myChartpr5);
 vegaEmbed('#chartpr6', myChartpr6);
 vegaEmbed('#chartpr8', myChartpr8);
