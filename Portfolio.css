@@ -475,6 +475,73 @@ footer {
     transition: opacity 1s ease-in;
   }
 
+/* ====== CHARTS ====== */
+
+.chartw1
+{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(77, 73, 106);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.chartw2
+{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(77, 73, 106);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.chartw3
+{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(77, 73, 106);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.chartw4 
+{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(77, 73, 106);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.chartw5
+{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(77, 73, 106);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 
 /* ============= FOR READBILITY ON MOBILE DEVICES ========= */
 
@@ -561,67 +628,4 @@ h6{
   font-size:15px;
 }
 
-}
-
-
-/* CHARTS */
-
-.chartw1{ /*setting the style for the ONS charts*/
-    background-color: rgb(255, 255, 255);
-    width:250px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 2px;
-    border-color: rgb(77, 73, 106);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.chartw2{ /*setting the style for the ONS charts*/
-    background-color: rgb(255, 255, 255);
-    width:250px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 2px;
-    border-color: rgb(77, 73, 106);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.chartw3{ /*setting the style for the ONS charts*/
-    background-color: rgb(255, 255, 255);
-    width:250px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 2px;
-    border-color: rgb(77, 73, 106);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.chartw4{ /*setting the style for the ONS charts*/
-    background-color: rgb(255, 255, 255);
-    width:250px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 2px;
-    border-color: rgb(77, 73, 106);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.chartw5{ /*setting the style for the ONS charts*/
-    background-color: rgb(255, 255, 255);
-    width:250px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 2px;
-    border-color: rgb(77, 73, 106);
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 }
