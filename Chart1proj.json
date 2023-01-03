@@ -80,7 +80,7 @@
   "lookup": "name",
   "from": {
     "data": {
-    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/CAF_output_2018-2022%3D_WGI.csv"
+    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_WGI.csv"
   },
    "key": "Country", 
    "fields": ["2018", "2019", "2021", "2022"]
@@ -140,7 +140,7 @@
   "lookup": "name",
   "from": {
     "data": {
-    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/CAF_output_2018-2022%3D_HAS.csv"
+    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_HAS.csv"
   },
    "key": "Country", 
    "fields": ["2018", "2019", "2021", "2022"]
@@ -199,7 +199,7 @@
   "lookup": "name",
   "from": {
     "data": {
-    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/CAF_output_2018-2022%3D_DM.csv"
+    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_DM.csv"
   },
    "key": "Country", 
    "fields": ["2018", "2019", "2021", "2022"]
@@ -258,7 +258,7 @@
   "lookup": "name",
   "from": {
     "data": {
-    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/CAF_output_2018-2022%3D_VT.csv"
+    "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_VT.csv"
   },
    "key": "Country", 
    "fields": ["2018", "2019", "2021", "2022"]
