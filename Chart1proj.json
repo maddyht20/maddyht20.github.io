@@ -3,44 +3,44 @@
 "params": [
   {
     "name": "slider_1", 
-    "value": 2022,
+    "value": 2021,
     "bind": {
       "input": "range",
-      "min": 2018,
-      "max": 2022, 
+      "min": 2017,
+      "max": 2021, 
       "step":1,
       "name": "Year (Map 1):"
     }
   },
   {
     "name": "slider_2", 
-    "value": 2022,
+    "value": 2021,
     "bind": {
       "input": "range",
-      "min": 2018,
-      "max": 2022, 
+      "min": 2017,
+      "max": 2021, 
       "step":1,
       "name": "Year (Map 2):"
     }
   },
   {
     "name": "slider_3", 
-    "value": 2022,
+    "value": 2021,
     "bind": {
       "input": "range",
-      "min": 2018,
-      "max": 2022, 
+      "min": 2017,
+      "max": 2021, 
       "step":1,
       "name": "Year (Map 3):"
     }
   },
   {
     "name": "slider_4", 
-    "value": 2022,
+    "value": 2021,
     "bind": {
       "input": "range",
-      "min": 2018,
-      "max": 2022, 
+      "min": 2017,
+      "max": 2021, 
       "step":1,
       "name": "Year (Map 4):"
     }
@@ -49,7 +49,7 @@
 "vconcat": [
   {
     "title": {
-      "text": "Map 1 - World Giving Index Overall Score, 2018-2022",
+      "text": "Map 1 - World Giving Index Overall Score, 2017-2021",
       "subtitle": [
         "Source: CAF",
         ""
@@ -83,10 +83,10 @@
     "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_WGI.csv"
   },
    "key": "Country", 
-   "fields": ["2018", "2019", "2021", "2022"]
+   "fields": ["2017", "2018", "2020", "2021"]
    }
 }, 
-{"fold": ["2018", "2019", "2021", "2022"], "as": ["Year", "Value"]},
+{"fold": ["2017", "2018", "2020", "2021"], "as": ["Year", "Value"]},
 {"calculate": "toNumber(datum.Value)", "as": "Value_N"}, 
 {"filter": "datum.Year==slider_1"}
 
@@ -96,7 +96,7 @@
  "encoding": {
       "tooltip": [
         {"field": "name", "title":"Country"},
-        {"field": "2022", "title":"WGI Overall Score (2022)", "type": "quantitative"}
+        {"field": "2021", "title":"WGI Overall Score (2021)", "type": "quantitative"}
 ],
 "color": {
   "field": "Value_N", 
@@ -109,7 +109,7 @@
 },
 {
     "title": {
-    "text": "Map 2 - 'Helping a Stranger' Score, 2018-2022",
+    "text": "Map 2 - 'Helping a Stranger' Score, 2017-2021",
     "subtitle": [
       "Source: CAF",
       ""
@@ -143,10 +143,10 @@
     "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_HAS.csv"
   },
    "key": "Country", 
-   "fields": ["2018", "2019", "2021", "2022"]
+   "fields": ["2017", "2018", "2020", "2021"]
    }
 }, 
-{"fold": ["2018", "2019", "2021", "2022"], "as": ["Year", "Value"]},
+{"fold": ["2017", "2018", "2020", "2021"], "as": ["Year", "Value"]},
 {"calculate": "toNumber(datum.Value)", "as": "Value_N"}, 
 {"filter": "datum.Year==slider_2"}
 
@@ -156,7 +156,7 @@
  "encoding": {
       "tooltip": [
         {"field": "name", "title":"Country"},
-        {"field": "2022", "title":"'Helping a Stranger' Score (2022)", "type": "quantitative"}
+        {"field": "2021", "title":"'Helping a Stranger' Score (2021)", "type": "quantitative"}
 ],
 "color": {
   "field": "Value_N", 
@@ -168,7 +168,7 @@
 },
 {
     "title": {
-    "text": "Map 3 - 'Donating Money' Score, 2018-2022",
+    "text": "Map 3 - 'Donating Money' Score, 2017-2021",
     "subtitle": [
       "Source: CAF",
       ""
@@ -202,10 +202,10 @@
     "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_DM.csv"
   },
    "key": "Country", 
-   "fields": ["2018", "2019", "2021", "2022"]
+   "fields": ["2017", "2018", "2020", "2021"]
    }
 }, 
-{"fold": ["2018", "2019", "2021", "2022"], "as": ["Year", "Value"]},
+{"fold": ["2017", "2018", "2020", "2021"], "as": ["Year", "Value"]},
 {"calculate": "toNumber(datum.Value)", "as": "Value_N"}, 
 {"filter": "datum.Year==slider_3"}
 
@@ -215,7 +215,7 @@
  "encoding": {
       "tooltip": [
         {"field": "name", "title":"Country"},
-        {"field": "2022", "title":"'Donating Money' Score (2022)", "type": "quantitative"}
+        {"field": "2021", "title":"'Donating Money' Score (2021)", "type": "quantitative"}
 ],
 "color": {
   "field": "Value_N", 
@@ -227,7 +227,7 @@
 },
 {
 "title": {
-  "text": "Map 4 - 'Volunteering Time' Score, 2018-2022",
+  "text": "Map 4 - 'Volunteering Time' Score, 2017-2021",
   "subtitle": [
     "Source: CAF",
     ""
@@ -261,10 +261,10 @@
     "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_VT.csv"
   },
    "key": "Country", 
-   "fields": ["2018", "2019", "2021", "2022"]
+   "fields": ["2017", "2018", "2020", "2021"]
    }
 }, 
-{"fold": ["2018", "2019", "2021", "2022"], "as": ["Year", "Value"]},
+{"fold": ["2017", "2018", "2020", "2021"], "as": ["Year", "Value"]},
 {"calculate": "toNumber(datum.Value)", "as": "Value_N"}, 
 {"filter": "datum.Year==slider_4"}
 
@@ -274,7 +274,7 @@
  "encoding": {
       "tooltip": [
         {"field": "name", "title":"Country"},
-        {"field": "2022", "title":"'Volunteering Time' Score (2022)", "type": "quantitative"}
+        {"field": "2021", "title":"'Volunteering Time' Score (2021)", "type": "quantitative"}
 ],
 "color": {
   "field": "Value_N", 
