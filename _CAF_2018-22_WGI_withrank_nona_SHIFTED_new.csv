@@ -1,0 +1,51 @@
+﻿Country,year,Rank,WGI,YoY_Change
+Indonesia,2017,1,59,null
+Australia,2017,2,59,null
+New Zealand,2017,3,58,null
+Ireland,2017,5,56,null
+United Kingdom of Great Britain and Northern Ireland,2017,6,55,null
+Kenya,2017,8,54,null
+Myanmar,2017,9,54,null
+Netherlands,2017,11,51,null
+United Arab Emirates,2017,12,51,null
+Canada,2017,15,49,null
+Indonesia,2018,10,50,-9
+Australia,2018,4,56,-2
+New Zealand,2018,3,57,0
+Ireland,2018,5,56,0
+United Kingdom of Great Britain and Northern Ireland,2018,7,54,-1
+Kenya,2018,11,47,-3
+Myanmar,2018,2,58,7
+Netherlands,2018,8,53,3
+United Arab Emirates,2018,14,45,-2
+Canada,2018,6,55,9
+Indonesia,2019,null,null,null
+Australia,2019,null,null,null
+New Zealand,2019,null,null,null
+Ireland,2019,null,null,null
+United Kingdom of Great Britain and Northern Ireland,2019,null,null,null
+Kenya,2019,null,null,null
+Myanmar,2019,null,null,null
+Netherlands,2019,null,null,null
+United Arab Emirates,2019,null,null,null
+Canada,2019,null,null,null
+Indonesia,2020,1,69,9
+Australia,2020,5,49,-1
+New Zealand,2020,7,47,-4
+Ireland,2020,26,40,-21
+United Kingdom of Great Britain and Northern Ireland,2020,22,41,-15
+Kenya,2020,2,58,9
+Myanmar,2020,4,51,-2
+Netherlands,2020,39,37,-31
+United Arab Emirates,2020,13,44,1
+Canada,2020,35,38,-29
+Indonesia,2021,1,68,0
+Australia,2021,4,55,1
+New Zealand,2021,5,54,2
+Ireland,2021,11,49,15
+United Kingdom of Great Britain and Northern Ireland,2021,17,47,5
+Kenya,2021,2,61,0
+Myanmar,2021,6,52,-2
+Netherlands,2021,29,46,10
+United Arab Emirates,2021,15,47,-2
+Canada,2021,8,51,27
