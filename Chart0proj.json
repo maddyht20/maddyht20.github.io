@@ -62,7 +62,7 @@
       "text": "Change in WGI Ranking of most charitable countries",
       "fontSize":12,
       "subtitle": [
-        "Source: CAF",
+        "Source: CAF"
         ],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
@@ -75,7 +75,7 @@
         "countrysel": {"type": "single", "empty": "all", "fields": ["Country"]}
       },
       "transform": [
-        {"filter": {"selection": "countrysel"}},
+        {"filter": {"selection": "countrysel"}}
       ],
       "width": 320
     },
@@ -110,7 +110,7 @@
           "timeUnit": "year",
           "type": "ordinal",
           "title": null,
-          "axis": {"grid": false},
+          "axis": {"grid": false}
         },
 
         "y": {
