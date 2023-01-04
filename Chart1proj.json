@@ -58,7 +58,8 @@
       "subtitleFontSize": 10,
       "color": "black"
     },
-    "width": 600,
+    "width": 350,
+    "height": 150,
 
     "data": {
       "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
@@ -118,7 +119,8 @@
     "subtitleFontSize": 10,
     "color": "black"
     },
-  "width": 600,
+  "width": 350,
+  "height": 150,
 
 "data": {
       "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
@@ -177,7 +179,8 @@
     "subtitleFontSize": 10,
     "color": "black"
     },
-    "width": 600,
+    "width": 350,
+    "height": 150,
 
     "data": {
       "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
@@ -236,7 +239,8 @@
   "subtitleFontSize": 10,
   "color": "black"
   },
-  "width": 600,
+  "width": 350,
+  "height": 150,
 
 "data": {
       "url": "https://unpkg.com/world-atlas@1.1.4/world/110m.json",
