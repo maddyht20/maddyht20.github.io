@@ -584,7 +584,7 @@ h6{
 {
     background-color: white;
     margin-top: 5%;
-    width:415px;
+    width:420px;
     height: 1010px;
     border-width: 3px;
     border-style: solid;
@@ -596,7 +596,7 @@ h6{
 {
     background-color: white;
     margin-top: 5%;
-    width:570px;
+    width:560px;
     height: 1110px;
     border-width: 3px;
     border-style: solid;
@@ -609,7 +609,7 @@ h6{
     background-color: white;
     margin-top: 5%;
     width:750px;
-    height: 380px;
+    height: 375px;
     border-width: 3px;
     border-style: solid;
     border-radius: 2px;
@@ -620,8 +620,8 @@ h6{
 {
     background-color: white;
     margin-top: 5%;
-    width:160px;
-    height: 180px;
+    width:180px;
+    height: 175px;
     border-width: 3px;
     border-style: solid;
     border-radius: 2px;
@@ -633,7 +633,7 @@ h6{
     background-color: white;
     margin-top: 5%;
     width:600px;
-    height: 1500px;
+    height: 1700px;
     border-width: 3px;
     border-style: solid;
     border-radius: 2px;
@@ -646,6 +646,18 @@ h6{
     margin-top: 5%;
     width:505px;
     height: 395px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 159, 204);
+}
+
+.chartpr7
+{
+    background-color: white;
+    margin-top: 5%;
+    width:400px;
+    height: 400px;
     border-width: 3px;
     border-style: solid;
     border-radius: 2px;
