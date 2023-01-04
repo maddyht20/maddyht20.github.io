@@ -114,8 +114,17 @@
         <h4>A</h4>
         <p>.</p>   
     <div id="ChartKepler"></div>
-    <iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/4f5gntnw2unegwb/keplergl_wb6x25m.json" width="700" height="500"></iframe>
+    <iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/ibssoqissntlnck/keplergl_f9zkn3u.json" width="700" height="500"></iframe>
     <div id="ChartKepler"></div>
+    <br></br>
+         <table>
+            <tr>
+              <td><div class="chartwk1" id="ChartP"></div></td>
+              <td><div class="chartwk1" id="ChartQ"></div></td> 
+              <td><div class="chartwk1" id="ChartV"></div></td> 
+            </tr>
+         </table> 
+     </div> 
 </div> 
 
 <div class="container">
@@ -128,7 +137,7 @@
               <td><div class="chartwk1" id="Chart5"></div></td>
               <td><div class="chartwk1" id="Chart6"></div></td> 
             </tr>
-          </table> 
+         </table> 
         <p>The first visual encoding is a stacked bar-chart. The second is a line-chart. The latter makes it easier to compare countries as they share a common baseline.</p>
     </div>
 </div>
@@ -278,6 +287,9 @@
     var myChart26 = "Chart26proj.json";
     var myChart27 = "Chart27proj.json";
     var myChart28 = "Chart28proj.json";
+    var myChartP = "ChartPproj.json";
+    var myChartQ = "ChartQproj.json";
+    var myChartV = "ChartVproj.json";
     // Embed charts
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
@@ -307,6 +319,9 @@
     vegaEmbed('#Chart26', myChart26);
     vegaEmbed('#Chart27', myChart27);
     vegaEmbed('#Chart28', myChart28);
+    vegaEmbed('#ChartP', myChartP);
+    vegaEmbed('#ChartQ', myChartQ);
+    vegaEmbed('#ChartV', myChartV);
 </script>
 
 </html>
