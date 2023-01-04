@@ -11,8 +11,8 @@
     },
 
   "data": {"url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/Week8HourlyEarnings_shifted.csv"},
-  "width": 400,
-  "height": 300,
+  "width": 250,
+  "height": 350,
   "encoding": {"x": {"field": "Year", "type": "temporal", "title": null}},
   "layer": [
     {
