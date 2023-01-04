@@ -63,7 +63,7 @@
       "mark": {"type": "circle", "color": "#646fac", "fillOpacity":0.9}
     },
     {
-      "data": {"values": [{"WGI": 42, "GDPpc": 95000, "text": "R² = 0.07"}]},
+      "data": {"values": [{"WGI": 42, "GDPpc": 95000, "text": "R² = 0.06"}]},
       "mark": {"type": "text", "color": "red", "fontWeight": "normal", "fontSize":12},
       "encoding": {
         "tooltip": null,
