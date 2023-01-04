@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+      "title": {
+      "text": "Europe Base Map",
+      "subtitle": "Source: https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/TopoJSON/europe.topojson",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 12,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+  
+    "width":500,
+    "height":300,
+  
+    "data":{
+      "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/TopoJSON/europe.topojson",
+      "format":{
+        "type": "topojson",
+        "feature": "europe"
+      }},
+  
+      "projection": {
+        "type": "equalEarth"
+      },
+  
+     "mark": "geoshape",
+  
+      "encoding": {
+        "tooltip":{
+          "field": "properties.NAME", "type": "nominal", "title": "Country"}
+        
+      }
+  
+   }
