@@ -3,14 +3,15 @@
 
       "title": {
       "text": "Europe: Exports of goods and services (current US$billion)",
+      "fontSize": 12,
       "subtitle": "Source: https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/TopoJSON/europe.topojson",
       "subtitleFontStyle": "italic",
-      "subtitleFontSize": 12,
+      "subtitleFontSize": 10,
       "anchor": "start",
       "color": "black"
     },
     
-  "width":500,
+  "width":400,
     "height":300,
   
     "data": {
@@ -48,7 +49,7 @@
           "field": "Exports of goods and services (current US$billion)",
           "type": "quantitative",
           "title": "Exports of goods and services (current US$billion)",
-          "format": ".2f"
+          "format": ".0f"
         }
       ]
     }
