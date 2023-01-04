@@ -566,38 +566,76 @@ h6{
 
 /* CHARTS */
 
+/* Setting the style of border and background for specific graphs that have different dimensions */
+
 .chartwk1
 {
     background-color: white;
     margin-top: 5%;
     width:400px;
     height: 400px;
-    border-width: 2px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 2px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(161, 159, 204);
 }
 
 .chartpr1
 {
     background-color: white;
     margin-top: 5%;
-    width:430px;
+    width:420px;
     height: 1010px;
-    border-width: 2px;
+    border-width: wpx;
     border-style: solid;
     border-radius: 2px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(161, 159, 204);
 }
 
 .chartpr2
 {
     background-color: white;
     margin-top: 5%;
-    width:600px;
-    height: 1100px;
-    border-width: 2px;
+    width:580px;
+    height: 1110px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 2px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(161, 159, 204);
+}
+
+.chartpr3
+{
+    background-color: white;
+    margin-top: 5%;
+    width:100px;
+    height: 100px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 159, 204);
+}
+
+.chartpr4
+{
+    background-color: white;
+    margin-top: 5%;
+    width:580px;
+    height: 1110px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 159, 204);
+}
+
+.chartpr5
+{
+    background-color: white;
+    margin-top: 5%;
+    width:500px;
+    height: 400px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 159, 204);
 }
