@@ -519,12 +519,12 @@ footer {
   height: auto;
   line-height:0;
   word-wrap: break-word;
-  padding:30px;
+  padding:20px;
   font-size:35px
   }
 
 p{
-  font-size: 10px;
+  font-size: 7px;
 }
 
 .header-bar p{
