@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "Regressing WGI Overall Score on Median Age for all countries featured in the 2018 to 2022 editions of the CAF World Giving Index Report (exploring data for 2019-2021). I ran the regression in Colab in order to ascertain the equation for the regression line",
+  "description": "Regressing WGI Overall Score on GDP per capita for all countries featured in the 2018 to 2022 editions of the CAF World Giving Index Report (exploring data for 2019-2021). I ran the regression in Colab in order to ascertain the equation for the regression line",
 
   "title": {
     "text": [
@@ -63,7 +63,7 @@
       "mark": {"type": "circle", "color": "#646fac", "fillOpacity":0.9}
     },
     {
-      "data": {"values": [{"WGI": 42, "GDPpc": 95000, "text": "R² = 0.00"}]},
+      "data": {"values": [{"WGI": 42, "GDPpc": 95000, "text": "R² = 0.06"}]},
       "mark": {"type": "text", "color": "red", "fontWeight": "normal", "fontSize":12},
       "encoding": {
         "tooltip": null,
