@@ -577,3 +577,27 @@ h6{
     border-radius: 2px;
     border-color: rgb(255, 255, 255);
 }
+
+.chartpr1
+{
+    background-color: white;
+    margin-top: 5%;
+    width:400px;
+    height: 600px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(255, 255, 255);
+}
+
+.chartpr2
+{
+    background-color: white;
+    margin-top: 5%;
+    width:400px;
+    height: 800px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(255, 255, 255);
+}
