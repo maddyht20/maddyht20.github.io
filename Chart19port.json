@@ -35,7 +35,8 @@
         },
         "tooltip": [
           {"field": "Private Sector", "type": "quantitative"},
-          {"field": "Public Sector", "type": "quantitative"}
+          {"field": "Public Sector", "type": "quantitative"},
+          {"field": "Date", "type": "temporal"}
         ]
       },
       "params": [{
