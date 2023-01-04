@@ -5,11 +5,11 @@
 
   "title": {
     "text": [
-      "Regressing WGI Overall Score on Median Age using data from 2022"
+      "Regressing WGI Overall Score on Median Age"
     ],
     "fontSize":12,
     "subtitle": [
-      "Religiosity measured as the percentage of the population who consider religion important",
+      "Median Age measured in years",
       "Sources: CAF and Worldometers"
     ],
     "subtitleFontStyle": "italic",
