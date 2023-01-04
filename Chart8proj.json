@@ -50,8 +50,8 @@
     {
       "data": {
         "values": [
-          {"CAF_2022": 42.11, "Median_Age_2022": 16},
-          {"CAF_2022": 40.75, "Median_Age_2022": 48}
+          {"CAF_2022": 41.15, "Median_Age_2022": 16},
+          {"CAF_2022": 39.43, "Median_Age_2022": 48}
   ]
       },
       "mark": {"type": "line", "color": "#2c2a2e", "clip": true},
@@ -64,7 +64,7 @@
       "mark": {"type": "circle", "color": "#3188cf", "fillOpacity":0.9}
     },
     {
-      "data": {"values": [{"CAF_2022": 42, "Median_Age_2022": 11, "text": "R² = 0.00"}]},
+      "data": {"values": [{"CAF_2022": 41, "Median_Age_2022": 11, "text": "R² = 0.00"}]},
       "mark": {"type": "text", "color": "red", "fontWeight": "normal", "fontSize":12},
       "encoding": {
         "tooltip": null,
