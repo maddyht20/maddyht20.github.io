@@ -14,8 +14,8 @@
     "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_WGI_SHIFTED_final.csv"
         },
   
-  "height": 1500,
-  "width": 300,
+  "height": 1000,
+  "width": 200,
 
 
   "transform": [
@@ -41,11 +41,11 @@
       "type": "nominal",
       "title": null,
       "axis": {
-        "offset": 4,
-        "ticks": false,
+        "offset": 0,
+        "ticks": true,
         "domain": false,
         "labelAngle": 0,
-        "labelFontSize": 9
+        "labelFontSize": 8
       }
     }
   },
