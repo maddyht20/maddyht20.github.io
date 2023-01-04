@@ -592,6 +592,30 @@ h6{
     border-color: rgb(161, 159, 204);
 }
 
+.chartwk5
+{
+    background-color: white;
+    margin-top: 5%;
+    width:170px;
+    height: 170px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 159, 204);
+}
+
+.chartwk7
+{
+    background-color: white;
+    margin-top: 5%;
+    width:340px;
+    height: 600px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 159, 204);
+}
+
 .chartpr1
 {
     background-color: white;
