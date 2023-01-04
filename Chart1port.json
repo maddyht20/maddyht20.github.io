@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Graph showing UK GDP between 2005 and 2022",
   "data": {
     "url": "https://api.allorigins.win/raw?url=https://api.ons.gov.uk/timeseries/ybha/dataset/qna/data",
     "format": {"type": "json", "property": "quarters"}
@@ -14,6 +15,7 @@
   ],
   "title": {
     "text": "UK Gross Domestic Product",
+    "fontSize":12,
     "subtitle": "Measured at market prices (£m). Source: ONS",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
