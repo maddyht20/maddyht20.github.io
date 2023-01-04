@@ -50,18 +50,18 @@
     {
       "data": {
         "values": [
-          {"CAF": 42.79, "Religiosity": 0},
-          {"CAF": 38.612, "Religiosity": 100}
+          {"CAF": 42.20, "Religiosity": 14},
+          {"CAF": 38.7, "Religiosity": 98}
   ]
       },
-      "mark": {"type": "line", "color": "#603881", "clip": true},
+      "mark": {"type": "line", "color": "#2c2a2e", "clip": true},
       "encoding": {"tooltip": null}
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_Religiosity_2022_dropna.csv"
       },
-      "mark": {"type": "circle", "color": "#1327a8", "fillOpacity":0.9}
+      "mark": {"type": "circle", "color": "#865fa5", "fillOpacity":0.9}
     },
     {
       "data": {"values": [{"CAF": 40, "Religiosity": 12, "text": "R² = 0.02"}]},
