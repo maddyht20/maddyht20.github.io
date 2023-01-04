@@ -1,9 +1,11 @@
-{
+
+
+  {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     
       "title": {
       "text": "Europe Base Map",
-      "subtitle": "Source: https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/TopoJSON/europe.topojson",
+      "subtitle": "Source: https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 12,
       "anchor": "start",
@@ -15,10 +17,10 @@
     "height":300,
   
     "data":{
-      "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/TopoJSON/europe.topojson",
+      "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json",
       "format":{
         "type": "topojson",
-        "feature": "europe"
+        "feature": "continent_Europe_subunits"
       }},
   
       "projection": {
@@ -29,8 +31,7 @@
   
       "encoding": {
         "tooltip":{
-          "field": "properties.NAME", "type": "nominal", "title": "Country"}
+          "field": "properties.geounit", "type": "nominal", "title": "Country"}
         
       }
-  
    }
