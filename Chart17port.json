@@ -5,10 +5,10 @@
     
       "title": {
       "text": "Europe Base Map",
-      "fontSize": 10,
+      "fontSize": 12,
       "subtitle": "Source: https://raw.githubusercontent.com/deldersveld/topojson/master/continents/europe.json",
       "subtitleFontStyle": "italic",
-      "subtitleFontSize": 8,
+      "subtitleFontSize": 10,
       "anchor": "start",
       "color": "black"
     },
