@@ -50,21 +50,21 @@
     {
       "data": {
         "values": [
-          {"CAF_2022": 42.01, "Median_Age_2022": 0},
-          {"CAF_2022": 41.86, "Median_Age_2022": 50}
+          {"CAF_2022": 42.11, "Median_Age_2022": 16},
+          {"CAF_2022": 40.75, "Median_Age_2022": 48}
   ]
       },
-      "mark": {"type": "line", "color": "#603881", "clip": true},
+      "mark": {"type": "line", "color": "#2c2a2e", "clip": true},
       "encoding": {"tooltip": null}
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_MedAge_TotPop_2022_dropna.csv"
       },
-      "mark": {"type": "circle", "color": "#339a36", "fillOpacity":0.9}
+      "mark": {"type": "circle", "color": "#3188cf", "fillOpacity":0.9}
     },
     {
-      "data": {"values": [{"CAF_2022": 39, "Median_Age_2022": 6, "text": "R² = 0.00"}]},
+      "data": {"values": [{"CAF_2022": 42, "Median_Age_2022": 11, "text": "R² = 0.00"}]},
       "mark": {"type": "text", "color": "red", "fontWeight": "normal", "fontSize":12},
       "encoding": {
         "tooltip": null,
