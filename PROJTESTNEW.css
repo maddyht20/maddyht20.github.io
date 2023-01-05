@@ -133,13 +133,13 @@ a:link:active, a:visited:active {
   }
 
   .subheading h1{ 
-    font-size: 35px;
+    font-size: 33px;
     color:#eee;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
     text-shadow: 1px 0 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000;
-    margin: 30px;
+    margin: 28px;
     text-align: center;
     }
 
@@ -681,8 +681,8 @@ h2{
 {
     background-color: white;
     margin-top: 5%;
-    width:400px;
-    height: 400px;
+    width:200px;
+    height: 200px;
     border-width: 3px;
     border-style: solid;
     border-radius: 2px;
