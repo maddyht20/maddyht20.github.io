@@ -9,7 +9,8 @@
     ],
     "fontSize":12,
     "subtitle": [
-      "Religiosity measured as percentage of the population who consider religion important",
+      "Religiosity measured as percentage of the",
+      "population who consider religion important",
       "Sources: CAF and Wikipedia"
     ],
     "subtitleFontStyle": "italic",
