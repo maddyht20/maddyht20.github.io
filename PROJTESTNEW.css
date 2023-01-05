@@ -435,6 +435,40 @@ footer {
   max-width: 85%;
 }
 
+/* ==================== CLICKABLE BUTTONS WITH LINK TO COLAB ETC ================= */
+
+.clickerbox{
+    text-align: center;
+    align-items: flex-start;
+    display: inline-block;
+    width: 1000px;
+    margin: 0px 0px 20px 0px;
+} 
+
+.clicker{
+    background-color: #363946;
+    border: none;
+    padding: 5px 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6da69a;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px 10px 20px 10px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+.clicker:hover{
+    background-color: #6da69a;
+    border-color: #363946;
+    opacity: 80%;
+}
 
 /* ============= FOR READBILITY ON MOBILE DEVICES ========= */
 
