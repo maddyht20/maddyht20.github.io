@@ -2,9 +2,9 @@
 
 body{
     background-color: #e1e1e7;
-    max-width: 100%;
     margin: auto;
-    box-sizing:border-box;
+    max-width: 1800px;
+    box-sizing: border-box;
 }
 
 h1{
@@ -52,7 +52,7 @@ h6{
   text-transform: none;
 }
 
-mark {
+mark{
     background-color: rgb(255, 255, 255);
     color: #363946;
   }
@@ -64,29 +64,7 @@ p{
 }
 
 
-/* ==================== CHOOSING CHART AESTHETICS ================= */
-
-.chart{
-  width: 300;
-  height: 300;
-  border-width: 3px;
-  background-color: #ffffff;
-  border-style: solid;
-  border-radius: 3px;
-  border-color: #363946;
-  margin: auto;
-  padding: 10px;
-  align-items: center;
-  justify-content: center;
-}
-
-.vega-bind-name{
-  font-family: 'Raleway', sans-serif;
-  color: #363946
-}
-
-
-/* ==================== CLICKABLE LINKS AESTHETICS ================= */
+/* ==================== LINKS AESTHETICS ================= */
 
 a:textlink, a:visited {
   color: #363946;
@@ -99,19 +77,18 @@ a:textlink:active, a:visited:active {
 }
 
 
-/* ==================== HEADER BAR ==================== */
+/* ==================== HEADER ==================== */
 
-.header-bar{
+.headbar{
   position: relative;
   left: 0%;
   top:0%;
   width:100%;
   margin: 0;
-  margin-top:60px;
   background-color:rgb(58, 63, 85);
   height: auto;
   line-height:0;
-  word-wrap: normal;
+  word-wrap: break-word;
   padding:8px;
   border-top-width: 5px;
   border-top-style: solid;
@@ -121,7 +98,7 @@ a:textlink:active, a:visited:active {
   border-bottom-color: #eee;
   }
 
-.header-bar h1{ 
+.headbar h1{ 
   font-size: 59px;
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
@@ -130,8 +107,8 @@ a:textlink:active, a:visited:active {
   margin: 52px;
   }
 
-.header-bar p{ 
-    font-size: 20px;
+.headbar p{ 
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     text-transform: uppercase;
@@ -564,9 +541,14 @@ h6{
 }
 
 
-/* ============= CHART AESTHETICS ========= */
+/* ============= CHOOSING CHART AESTHETICS ========= */
 
-/* Setting the style of border and background for specific graphs that have different dimensions */
+/* Setting the style of border and background for specific graphs that have different dimensions and interactive features */
+
+.vega-bind-name{
+  font-family: 'Raleway', sans-serif;
+  color: #363946
+}
 
 .image{
     background-color: white;
@@ -578,11 +560,11 @@ h6{
     margin: 0px 250px 0px 250px;
 }
 
-
 .chartwk
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width:435px;
     height: 420px;
     border-width: 3px;
@@ -594,7 +576,8 @@ h6{
 .chartwk2
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width:370px;
     height: 380px;
     border-width: 3px;
@@ -606,7 +589,8 @@ h6{
 .chartwk5
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width:240px;
     height: 220px;
     border-width: 3px;
@@ -618,7 +602,8 @@ h6{
 .chartwk7
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width: 500px;
     height: 300px;
     border-width: 3px;
@@ -630,7 +615,8 @@ h6{
 .chartpr1
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width:420px;
     height: 1010px;
     border-width: 3px;
@@ -642,7 +628,8 @@ h6{
 .chartpr2
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width:560px;
     height: 1110px;
     border-width: 3px;
@@ -654,7 +641,8 @@ h6{
 .chartpr3
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width:730px;
     height: 375px;
     border-width: 3px;
@@ -666,7 +654,8 @@ h6{
 .chartpr4
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width:180px;
     height: 175px;
     border-width: 3px;
@@ -678,8 +667,8 @@ h6{
 .chartpr5
 {
     background-color: white;
-    margin-top: 5%;
-    width:600px;
+    padding: 5px;
+    margin: auto;
     height: 1700px;
     border-width: 3px;
     border-style: solid;
@@ -690,8 +679,8 @@ h6{
 .chartpr6
 {
     background-color: white;
-    margin-top: 5%;
-    width:505px;
+    padding: 5px;
+    margin: auto;
     height: 395px;
     border-width: 3px;
     border-style: solid;
@@ -702,7 +691,8 @@ h6{
 .chartpr7
 {
     background-color: white;
-    margin-top: 5%;
+    padding: 5px;
+    margin: auto;
     width:400px;
     height: 400px;
     border-width: 3px;
