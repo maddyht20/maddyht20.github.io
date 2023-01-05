@@ -1,1 +1,224 @@
-s
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Madeline Thomas: Data Science for Economists Project 2022/23 -->
+
+<!-- //////////////////////////////////// HEAD //////////////////////////////////// -->
+
+<head>
+
+    <!-- The following lines are used to enable the Vega embed -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title (not visible on page - in head section)-->
+    <title>Madeline Thomas - Project</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="MTFavicon.png">
+    <link rel="shortcut icon" href="MTFavicon.png" />
+    <link rel="apple-touch-icon" href="MTFavicon.png" />
+
+    <!-- Linking to CSS file + font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ProjectFINAL.css">
+
+    <!-- Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway');
+    </style>
+
+</head>
+
+<!-- //////////////////////////////////// END OF HEAD //////////////////////////////////// -->
+
+
+
+<!-- //////////////////////////////////// BODY //////////////////////////////////// -->
+
+<body>
+
+<!--Background animation-->
+<div class="containbg">
+    <div class="bg1">
+            
+            <!--Navigation Bar-->
+            <header>
+                <a href="#" class="logo">MT</a>
+                <ul>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#" class="active">Project</a></li>
+                    <li><a href="https://github.com/maddyht20/maddyht20.github.io/">Github</a></li>
+                    <li><a href="https://rapidcharts.io/datascience">Course</a></li>
+                    <li><a href="home.html">Home</a></li>
+                </ul>
+            </header>
+
+            <!-- page format overall -->
+            <div style="margin-left:0px;margin-right:0px;padding:0px 0px;">
+
+            <!-- Visible Page Header Bar -->
+            <div>
+                <div class="header-bar">
+                    <h1>Data <span style="color: #707793"> Science</span></h1>
+                    <h1 style="color:#eee"><b>Project</b></h1>
+                    <p>Madeline Thomas<span style="color: #eee"> | </span><span style="color: #94d7c8">1901117</span></p>
+                    <!-- <p>Madeline Thomas | 1901117</p>
+                    <p>Madeline Thomas <span style="color: #707793"> Science</span></p>  -->
+                </div>
+            </div>
+
+
+            <!-- Project Main Content -->
+                
+            <div class="container">
+                <div class="content-box-task">
+                    <h5>Exploring global trends in charitable giving across time, and the factors that explain these global trends</h5>
+                    <h6><mark>Below are 26 charts created as part of my data science skills project</mark></h6>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content-box">
+                    <h4>Exploring the trends across countries and time</h4>
+                    <br></br>
+                    <h3>A</h3>
+                    <p>.</p>
+                        <div class="chartpr1" id="Chart1"></div>
+                    <br></br>
+                    <h3>B</h3>
+                    <p>.</p>
+                        <div class="chartpr2" id="Chart2"></div>
+                    <br></br>
+                    <h3>C</h3>
+                    <p>.</p>
+                        <div class="chartpr3" id="Chart3"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content-box">
+                 <!-- Kepler Chart - GDP, Religiosity and Median Age -->
+                    <h4>Factors that might explain these the global trends</h4>
+                    <br></br>
+                    <h3>A</h3>
+                    <p>.</p>   
+                <div id="ChartKepler"></div>
+                <iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/ibssoqissntlnck/keplergl_f9zkn3u.json" width="700" height="500"></iframe>
+                <div id="ChartKepler"></div>
+                <br></br>
+                    <table>
+                        <tr>
+                        <td><div class="chartpr4" id="ChartP"></div></td>
+                        <td><div class="chartpr4" id="ChartQ"></div></td> 
+                        <td><div class="chartpr4" id="ChartV"></div></td> 
+                        </tr>
+                    </table> 
+                </div> 
+            </div> 
+
+            <div class="container">
+                <div class="content-box">
+                    <h4>Further Analysis</h4>
+                    <br></br>
+                    <h3>A</h3>
+                    <p>.</p>  
+                    <!-- Chart 5 to 6 - Main Religion Analysis -->        
+                    <table>
+                        <tr>
+                        <td><div class="chartpr5" id="Chart5"></div></td>
+                        <td><div class="chartpr6" id="Chart6"></div></td> 
+                        </tr>
+                    </table>
+                    <br></br>
+                    <!-- Chart 7 to 9 - Regressions --> 
+                    <h3>A</h3>
+                    <p>.</p>  
+                    <table>
+                        <tr>
+                        <td><div class="chartpr7" id="Chart7"></div></td>
+                        <td><div class="chartpr7" id="Chart8"></div></td> 
+                        <td><div class="chartpr7" id="Chart9"></div></td>
+                        </tr>
+                    </table> 
+                    <p>.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content-box">
+                    <!-- Section with text about the aim of the project -->
+                    <h4>Project Aims</h4>
+                    <p>.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content-box">
+                    <!-- Section with text about the data I utilised for the project, the ways in which I accessed this data and comments regarding automation/replication -->
+                    <h4>Data</h4>
+                    <p>.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content-box">
+                    <!-- Section with text about difficulties faced during data cleaning and/or analysis, as well as the tools I utilised to overcome these challenges -->
+                    <h4>Challenges</h4>
+                    <p>.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content-box">
+                <!-- Section with text about conclusions based on the charts and analysis I conducted, plus areas for further research -->
+                    <h4>Conclusions</h4>
+                    <p>.</p>
+                </div>
+            </div>
+
+    <footer></footer>
+
+    </div>
+</div>
+
+</body>
+
+<!-- //////////////////////////////////// END OF BODY //////////////////////////////////// -->
+
+<script>
+    // Define charts
+    var myChart1 = "Chart1proj.json";
+    var myChart2 = "Chart2proj.json";
+    var myChart3 = "Chart3proj.json";
+    // var myChart4 = "Chart4proj.json";
+    var myChart5 = "Chart5proj.json";
+    var myChart6 = "Chart6proj.json";
+    var myChart7 = "Chart7proj.json";
+    var myChart8 = "Chart8proj.json";
+    var myChart9 = "Chart9proj.json";
+    var myChartP = "ChartPproj.json";
+    var myChartQ = "ChartQproj.json";
+    var myChartV = "ChartVproj.json";
+    // Embed charts
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    // vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#ChartP', myChartP);
+    vegaEmbed('#ChartQ', myChartQ);
+    vegaEmbed('#ChartV', myChartV);
+</script>
+
+</html>
