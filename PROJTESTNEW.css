@@ -141,6 +141,8 @@ a:link:active, a:visited:active {
     text-shadow: 1px 0 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000;
     margin: 28px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     }
 
 
