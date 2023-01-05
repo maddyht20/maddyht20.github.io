@@ -10,6 +10,7 @@
     "fontSize":12,
     "subtitle": [
       "Median Age measured in years",
+      "",
       "Sources: CAF and Worldometers"
     ],
     "subtitleFontStyle": "italic",
