@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Madeline Thomas: Data Science for Economists Portfolio 2022/23 -->
+
+<!-- //////////////////////////////////// HTML BODY //////////////////////////////////// -->
+
+<head>
+
+    <!-- The following lines are used to enable the Vega embed -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+ 
+    <!-- Page Title (not visible on page - in head section)-->
+    <title>Madeline Thomas - Portfolio</title>
+ 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="MTFavicon.png" />
+ 
+    <!-- Linking to CSS file -->
+    <link rel="stylesheet" href="PROJTESTNEW.css">
+ 
+    <!-- Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway');
+    </style>
+
+</head>
+
+<!-- //////////////////////////////////// END OF HEAD //////////////////////////////////// -->
+
+
+
+<!-- //////////////////////////////////// BODY //////////////////////////////////// -->
+
+<body>
+    <!--Background animation-->
+    <div class="bganim">
+        <div class="bg1">
+
+            <!--Navigation Bar-->
+            <div class="nav-bar">
+                <a href="#">Project</a>
+                <a href="portfolio.html" class="active">Portfolio</a>
+                <a href="index.html">Home</a>
+                <a href="https://github.com/maddyht20/maddyht20.github.io/">Github</a>
+                <a href="https://rapidcharts.io/datascience">Course</a>
+            </div>
+
+            <div>
+                <!-- Visible Header Bar on Page -->
+                <div class="heading">
+                    <h1>Data <span style="color: #707793"> Science</span></h1>
+                    <h1 style="color:#eee"><b>Portfolio</b></h1>
+                    <p>Madeline Thomas<span style="color: #eee"> | </span><span style="color: #94d7c8">1901117</span></p>
+                </div>
+
+                <!-- Subheading in own box just below main heading bar -->
+                <div class="subheading">
+                    <h1>Weekly Tasks</h1>
+                    <p><mark>Below are 26 charts created as part of my data science skills portfolio</mark></p>
+                </div>
+
+                <br></br>
+          
+                  <div class="separator">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                  </div>
+          
+                <br></br>
+      
+  <!-- Portfolio Main Content -->
+      
+                <!-- Week 1 Header -->
+                <div class="content">
+                    <div class="content-box">
+                        <div class="content-box-new">
+                            <h2>Week 1</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 1 content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>GDP</h3>
+                    <p>This first chart tracks UK GDP.</p>
+                    <!-- Chart 1 - GDP -->
+                        <div class="content-box">
+                            <div class="chartwk" id="Chart1"></div>
+                        </div>
+                    <br></br>
+                    <h3>Population Change</h3>
+                    <p>This second chart predicts how seven countries' populations will change over time.</p>
+                        <!-- Chart 2 - Population Change (Declining Populations) -->
+                        <div class="content-box">
+                            <div class="chartwk" id="Chart2"></div>
+                        </div>
+                </div>
+            </div>
+            
+            
+            <!-- Circle Page Separators -->
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+
+    
+            <!-- Week 2 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 2</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 2 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>IMF Lending Outstanding - nominal</h3>
+                    <p>The chart below depicts IMF lending between 1984 and 2022, in nominal terms. It might be expected that the riskiest year would be the year with the highest lending-to-GDP ratio.</p>
+                    <!-- Chart 3 - IMF lending in nominal terms -->
+                        <div class="content-box">
+                            <div class="chartwk2" id="Chart3"></div>
+                        </div>
+                    <br></br>
+                    <h3>IMF Lending Outstanding - relative to global GDP</h3>
+                    <p>Once we consider IMF lending relative to world GDP, we see that 1984 seems to be the riskiest year as IMF's lending relative to world GDP is highest.</p>
+                    <!-- Chart 4 - IMF lending in relative terms -->
+                        <div class="content-box">
+                            <div class="chartwk2" id="Chart4"></div>
+                        </div>
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+            
+            <!-- Week 3 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 3</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 3 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>Gross Savings</h3>
+                    <p>The first visual encoding is a stacked bar-chart. The second is a line-chart.</p> 
+                    <!-- Chart 5 and 6 - Gross Savings -->
+                        <div class="content-box">
+                            <table>
+                                <tr>
+                                    <td><div class="chartwk" id="Chart5"></div></td>
+                                    <td><div class="chartwk" id="Chart6"></div></td> 
+                                </tr>
+                            </table> 
+                        </div>
+                    <p>The latter makes it easier to compare countries as they share a common baseline. I also removed the gridlines as they add little additional information.</p>
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+    
+            <!-- Week 4 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 4</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 4 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>Scraping</h3>
+                    <p>This chart compares the ICC (Imperial Cricket Conference) points of the 10 highest scoring countries. The ESPN data I used for this chart was obtained using a scraper I built in Colab, which can be found <a href="https://colab.research.google.com/drive/1WumX7aMpIDwb7UTarRnS01CU_W3ULxAc?usp=sharing" target="_blank">here</a>.</p>
+                        <!-- Chart 7 - GDP -->
+                        <div class="content-box">
+                            <div class="chartwk" id="Chart7"></div>
+                        </div>
+                    <p>I scraped from this website since it was clear which table I would be scraping, the data was relatively clean, and ESPN is a trusted source.</p>
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+    
+            <!-- Week 5 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 5</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 5 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>ONS API</h3>
+                    <p>For this task, I used an ONS API to download nine unique ONS data series as json files, all in one go.<br><br>To access the python code behind these charts, click <a class="textLink" href="https://colab.research.google.com/drive/1rL1TXcQhMoi3GZmn0tvEFU1_9uAB7pt8?usp=sharing" target="_blank"> here</a>.</p>
+                        <!-- Chart 8 to 16 - ONS API -->
+                        <div class="content-box">
+                            <table>
+                                <tr>
+                                    <td><div class="chartwk5" id="Chart8"></div></td>
+                                    <td><div class="chartwk5" id="Chart9"></div></td> 
+                                    <td><div class="chartwk5" id="Chart10"></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div class="chartwk5" id="Chart11"></div></td>
+                                    <td><div class="chartwk5" id="Chart12"></div></td> 
+                                    <td><div class="chartwk5" id="Chart13"></div></td>
+                                </tr>
+                                <tr>
+                                    <td><div class="chartwk5" id="Chart14"></div></td>
+                                    <td><div class="chartwk5" id="Chart15"></div></td> 
+                                    <td><div class="chartwk5" id="Chart16"></div></td>
+                                </tr>
+                            </table> 
+                        </div>
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+    
+            <!-- Week 6 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 6</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 6 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>Reading Week</h3>
+                    <p>No tasks this week due to Reading Week</p>
+                        <!-- No Charts -->
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+   
+            <!-- Week 7 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 7</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 7 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>Europe Base Map</h3>
+                    <p>The map below is a base map onto which data can be added.</p>
+                    <!-- Chart 17 - Europe Chloropleth Base Map -->
+                        <div class="content-box">
+                            <div class="chartwk7" id="Chart17"></div>
+                        </div>
+                    <br></br>
+                    <h3>Europe Chloropleth Map</h3>
+                    <p>This chloropleth map shows the value of exports of goods and services across Europe. We can see that Germany has the highest value of exports.</p>
+                    <!-- Chart 18 - Europe Chloropleth Map -->
+                        <div class="content-box">
+                            <div class="chartwk7" id="Chart18"></div>
+                        </div>
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+    
+    
+            <!-- Week 8 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 8</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 8 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>Public v Private Sector: nominal wage</h3>
+                    <p>It was argued that private sector wage growth is currently outpacing public sector wage growth, but that public sector hourly pay exceeds private sector hourly pay.</p>
+                    <!-- Chart 19 - Public v Private Sector: nominal wage -->
+                        <div class="content-box">
+                            <div class="chartwk" id="Chart19"></div>
+                        </div>
+                    <br></br>
+                    <h3>Public v Private Sector: wage growth</h3>
+                    <!-- Chart 20 - Public v Private Sector: wage growth -->
+                        <div class="content-box">
+                            <div class="chartwk" id="Chart20"></div>
+                        </div>
+                    <p>The above graphs support the arguments made. However, the data does not provide information on the average age or skills of workers in each sector, which might explain the pay differences.</p>
+                    <p>To access the python code behind these charts, click <a class="textLink" href="https://colab.research.google.com/drive/1k-ZEVZLY7ko8z4FWVBAsvO5TY_p9TqJC?usp=sharing" target="_blank"> here</a>.</p>
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+    
+            <!-- Week 9 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 9</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 9 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3>Monthly Mean Exchange Rate Heat Map</h3>
+                    <p>This is a heatmap showing the value of USD$1 in CAD$ grouped by month and year.</p>
+                    <!-- Chart 21 - Heat Map -->
+                        <div class="content-box">
+                            <div class="image" id="Chart21png"><img src = "Chart21projFX.png" /></div>
+                        </div>
+                    <p>To access the python code behind this chart, click <a class="textLink" href="https://colab.research.google.com/drive/1V-uw8Hg-1nR_22_yKAR8rMfnlJHMiwyM?usp=sharing" target="_blank"> here</a>.</p>
+                    <br></br>
+                    <h3>Religiosity and Median Age Bubble Chart</h3>
+                    <p>This is a bubble chart showing the relationship between religiosity and median age on a country scale.</p>
+                    <!-- Chart 22 - Bubble Chart -->
+                        <div class="content-box">
+                            <div class="chartwk9" id="Chart22"></div>
+                        </div>
+                    <p>To access the python code behind this chart, click <a class="textLink" href="https://colab.research.google.com/drive/1WUk0AkNz-LVK3nTbGhD_0MqRb_C3inlY?usp=sharing" target="_blank"> here</a>.</p>
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+    
+            <!-- Week 10 - 11 Header -->
+            <div class="content">
+                <div class="content-box">
+                    <div class="content-box-new">
+                        <h2>Week 10-11</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Week 10 - 11 Content -->
+            <div class="content-box">
+                <div class="maincontents">
+                    <h3></h3>
+                    <p></p>
+                    <!-- Chart 23 -->
+                        <div class="content-box">
+                            <div class="chartwk" id="Chart23"></div>
+                        </div>
+                    <br></br>
+                    <h3></h3>
+                    <p>To access the python code behind the chart below, click <a class="textLink" href="https://colab.research.google.com/drive/1iGAmX5S6WMYt_duy_sNNKhJN4_zj9ArN?usp=sharing" target="_blank"> here</a>.</p>
+                    <!-- Chart 24 - Clustering -->
+                        <div class="content-box">
+                            <div class="image" id="Chart24png"><img src = "Week10ClusteringApparel_.png" /></div>
+                        </div>
+                </div>
+            </div>
+
+
+            <div class="separator">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+    
+    
+        </div>
+    </div>
+
+<footer></footer>
+
+</body>
+
+<!-- //////////////////////////////////// END OF BODY //////////////////////////////////// -->
+
+<script>
+    // Define charts
+    var myChart1 = "Chart1port.json";
+    var myChart2 = "Chart2port.json";
+    var myChart3 = "Chart3port.json";
+    var myChart4 = "Chart4port.json";
+    var myChart5 = "Chart5port.json";
+    var myChart6 = "Chart6port.json";
+    var myChart7 = "Chart7port.json";
+    var myChart8 = "Chart8port.json";
+    var myChart9 = "Chart9port.json";
+    var myChart10 = "Chart10port.json";
+    var myChart11 = "Chart11port.json";
+    var myChart12 = "Chart12port.json";
+    var myChart13 = "Chart13port.json";
+    var myChart14 = "Chart14port.json";
+    var myChart15 = "Chart15port.json";
+    var myChart16 = "Chart16port.json";
+    var myChart17 = "Chart17port.json";
+    var myChart18 = "Chart18port.json";
+    var myChart19 = "Chart19port.json";
+    var myChart20 = "Chart20port.json";
+    var myChart21 = "Chart21port.json";
+    var myChart22 = "Chart22_port.json";
+    var myChart23 = "Chart23port.json";
+    var myChart24 = "Chart24port.json";
+    // Embed charts
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
+    vegaEmbed('#Chart11', myChart11);
+    vegaEmbed('#Chart12', myChart12);
+    vegaEmbed('#Chart13', myChart13);
+    vegaEmbed('#Chart14', myChart14);
+    vegaEmbed('#Chart15', myChart15);
+    vegaEmbed('#Chart16', myChart16);
+    vegaEmbed('#Chart17', myChart17);
+    vegaEmbed('#Chart18', myChart18);
+    vegaEmbed('#Chart19', myChart19);
+    vegaEmbed('#Chart20', myChart20);
+    vegaEmbed('#Chart21', myChart21);
+    vegaEmbed('#Chart22', myChart22);
+    vegaEmbed('#Chart23', myChart23);
+    vegaEmbed('#Chart24', myChart24);
+</script>
+
+</html>
