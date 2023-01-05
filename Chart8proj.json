@@ -20,8 +20,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_MedAge_TotPop_2022_dropna.csv"
   },
-  "height": 300,
-  "width": 300,
+  "height": 150,
+  "width": 150,
   "encoding": {
     "x": {
       "field": "Median_Age_2022",
