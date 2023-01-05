@@ -634,12 +634,25 @@ h2{
     background-color: white;
     margin-top: 5%;
     width: 600px;
+    height: 380px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 159, 204);
+}
+
+.chartwk9
+{
+    background-color: white;
+    margin-top: 5%;
+    width: 500px;
     height: 400px;
     border-width: 3px;
     border-style: solid;
     border-radius: 2px;
     border-color: rgb(161, 159, 204);
 }
+
 
 .chartpr1
 {
