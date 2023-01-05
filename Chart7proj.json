@@ -10,6 +10,7 @@
     "fontSize":12,
     "subtitle": [
       "GDP per capita measured in current US$",
+      "",
       "Sources: CAF, World Bank and World Population Review"
     ],
     "subtitleFontStyle": "italic",
