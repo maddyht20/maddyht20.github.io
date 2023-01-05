@@ -20,8 +20,8 @@
     "format": {"type": "csv"}
   },
   
- "height": 1500,
- "width": 260,
+ "height": 1400,
+ "width": 220,
 
 "mark": {"type": "bar", "size": 6
 },
