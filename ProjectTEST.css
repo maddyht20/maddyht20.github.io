@@ -79,11 +79,11 @@ a:textlink:active, a:visited:active {
 
 /* ==================== HEADER ==================== */
 
-.headbar{
+.header-bar{
   position: relative;
   left: 0%;
-  top:0%;
-  width:100%;
+  top: 0%;
+  width: 100%;
   margin: 0;
   background-color:rgb(58, 63, 85);
   height: auto;
@@ -98,7 +98,7 @@ a:textlink:active, a:visited:active {
   border-bottom-color: #eee;
   }
 
-.headbar h1{ 
+.header-bar h1{ 
   font-size: 59px;
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
@@ -107,7 +107,7 @@ a:textlink:active, a:visited:active {
   margin: 52px;
   }
 
-.headbar p{ 
+.header-bar p{ 
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
@@ -202,12 +202,47 @@ a:textlink:active, a:visited:active {
 }
 
 .content-box p{
-  max-width: 500px;
+  text-align:left;
   padding: 8px;
   margin: auto;
   font-size: 17px;
 }
 
+.content-box h1{
+  text-align:left;
+  padding: 8px;
+  margin: auto;
+}
+
+.content-box h2{
+  text-align:left;
+  padding: 8px;
+  margin: auto;
+}
+
+.content-box h3{
+  text-align:left;
+  padding: 8px;
+  margin: auto;
+}
+
+.content-box h4{
+  text-align:left;
+  padding: 8px;
+  margin: auto;
+}
+
+.content-box h5{
+  text-align:left;
+  padding: 8px;
+  margin: auto;
+}
+
+.content-box h6{
+  text-align:left;
+  padding: 8px;
+  margin: auto;
+}
 
 .content-box .chartpr4 {
   align-items: center;
@@ -305,22 +340,17 @@ footer {
 /* ============= CONTAINER FOR KEEPING BOXES SEPARATE ========= */
 
 
-.container {
-    position: relative;
-    left: 0%;
-    top:0%;
-    width:100%;
+.maincontent {
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    display: flex;
-    flex-flow: wrap;
-    word-wrap: normal;
+    width: auto;
+    padding:25px;
     margin: auto;
-    margin-top:20px;
+    max-width: 85%;
     background-color:rgb(58, 63, 85);
-    height: auto;
-    padding:0px;
     border-top-width: 5px;
     border-top-style: solid;
     border-top-color: #eee;
@@ -328,66 +358,6 @@ footer {
     border-bottom-style: solid;
     border-bottom-color: #eee;
     }
-
-
-/* ============= LOADING CIRCLES ========= */
-
-/* Choosing the aesthetics of the loading circles */
-.loader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 400px;
-  }
-  
-  .loader>span {
-    display: inline-block;
-    background-color: #6da69a;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    margin: 0 8px;
-    animation: bounce 0.59s infinite alternate;
-  }
-  
-  .loader>span:nth-child(2) {
-    background-color: #363946;
-    animation-delay: 0.19s;
-  }
-  
-  .loader>span:nth-child(3) {
-    animation-delay: 0.32s;
-    background-color: #6da69a;
-  }
-
-
- /* Enabling the circles to move up and down */ 
-  @keyframes bounce {
-    to {
-      width: 16px;
-      height: 16px;
-      transform: translate3d(0, -16px, 0);
-    }
-  }
-
-  @keyframes cube {
-    from {
-      transform: scale(0) rotate(0deg) translate(-50%, -50%);
-      opacity: 1;
-    }
-    to {
-      transform: scale(20) rotate(960deg) translate(-50%, -50%);
-      opacity: 0;
-    }
-  }
-
-  /* Slowly phases in portfolio page content once the load had completed */
-  .main {
-    opacity: 0;
-    display: none;
-    transition: opacity 1s ease-in;
-  }
 
 
 /* ============= FOR READBILITY ON MOBILE DEVICES ========= */
@@ -415,10 +385,10 @@ footer {
     color:#EFEEF5
   }
 
-  .sidebarnavigator a {
+  .navbar a {
     float: left;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 15px;
     text-decoration: none;
     font-size: 20px;
   }
