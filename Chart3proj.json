@@ -59,13 +59,13 @@
       }],
 
     "title": {
-      "text": "Change in WGI Rank of top charitable countries",
-      "fontSize":12,
+      "text": "Change in WGI Rank of most charitable countries in 2017",
+      "fontSize":11,
       "subtitle": [
         "Source: CAF"
         ],
       "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
+      "subtitleFontSize": 9,
       "color": "black"
     },
 
@@ -84,9 +84,9 @@
       "title": {
         "text": "Year-on-Year Change in Rank",
         "subtitle":"Source: CAF",
-        "fontSize": 12,
+        "fontSize": 11,
         "subtitleFontStyle": "italic",
-        "subtitleFontSize": 10
+        "subtitleFontSize": 9
       },
 
       "mark": {
