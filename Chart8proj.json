@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "Regressing WGI Overall Score on Median Age for all countries featured in the 2022 edition of the CAF World Giving Index Report (which explores data from the year before - 2021). I ran the regression in Colab in order to ascertain the equation for the regression line",
+  "description": "Regressing WGI Score on Median Age for all countries featured in the 2022 edition of the CAF World Giving Index Report (which explores data from the year before - 2021). I ran the regression in Colab in order to ascertain the equation for the regression line",
 
   "title": {
     "text": [
