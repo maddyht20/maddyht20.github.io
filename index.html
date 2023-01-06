@@ -1,0 +1,77 @@
+<!-- HOME PAGE -->
+<!-- Using parallax scrolling, inspired by 'Parallax Scrolling Website | How to Make Website using Html CSS & Javascript' video on youtube by Online Tutorials. -->
+
+<!doctype html>
+<html>
+    <head>
+    
+    <!--Meta-->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!--Page Title (not visible on page but shows up as title)-->
+    <title>Main</title>
+      
+    <!-- Favicon -->
+    <link rel="icon" href="MTFavicon.png">
+    <link rel="shortcut icon" href="MTFavicon.png" />
+    <link rel="apple-touch-icon" href="MTFavicon.png" />
+      
+    <!--Style css-->
+    <link rel="stylesheet" href="index.css">
+      
+    </head>
+  
+    <body>
+        <header>
+            <a href="#" class="logo">MT</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">CV.pdf</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="charityjar.png" id="charityjar">
+            <img src="stars.png" id="stars">
+            <img src="coin.png" id="coin">
+            <h2 id="text1">Madeline Thomas</h2>
+            <h2 id="text2">Charitable Giving Trends</h2>
+            <h2 id="text3">SCROLL DOWN!</h2>
+            <a href="#" id="button2">.</a>
+        </section>
+        <div class="sec">
+            <h2>Data Science for Economists</h2>
+            <p>Welcome to my Data Science Project</p>
+        </div>
+
+    <script>
+        let stars = document.getElementById('stars');
+        let charityjar = document.getElementById('charityjar');
+        let text1 = document.getElementById('text1');
+        let text2 = document.getElementById('text2');
+        let text3 = document.getElementById('text3');
+        let button2 = document.getElementById('button2');
+        let coin = document.getElementById('coin');
+        let header = document.querySelector('header');
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            coin.style.top = value * 2 + 'px';
+            charityjar.style.top = value * 0.5 + 'px';
+            text1.style.marginRight = value * 4 + 'px';
+            text1.style.marginTop = value * 1.5 + 'px';
+            text2.style.marginRight = value * 9 + 'px';
+            text2.style.marginTop = value * 4.5 + 'px';
+            button2.style.marginTop = value * 0.9 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
+    </body>
+
+</html>
