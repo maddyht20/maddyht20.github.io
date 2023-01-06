@@ -522,6 +522,14 @@ footer {
       display:grid;
   }
 
+p{
+  font-size: 10px;
+}
+
+.content p{
+  font-size: 10px;
+}
+
 .heading h1{
   position: relative;
   top:0%;
@@ -532,20 +540,12 @@ footer {
   height: auto;
   line-height:0;
   word-wrap: break-word;
-  padding:30px;
-  font-size:30px
-  }
-
-p{
-  font-size: 10px;
-}
-
-.content p{
-  font-size: 10px;
-}
-
+  padding:20px;
+  font-size:40px
+  }    
+    
 .heading p{
-  font-size: 32px;
+  font-size: 25px;
 }
 
 .subheading h1{
@@ -559,15 +559,15 @@ p{
   line-height:0;
   word-wrap: break-word;
   padding: 30px;
-  font-size: 22px
+  font-size: 18px
   }
 
 .subheading h5{
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .subheading h2{
-  font-size: 23px;
+  font-size: 18px;
 }
 
 h2{
@@ -718,8 +718,8 @@ h2{
 {
     background-color: white;
     margin-top: 5%;
-    width:540px;
-    height: 1400px;
+    width:520px;
+    height: 1450px;
     border-width: 3px;
     border-style: solid;
     border-radius: 2px;
@@ -742,7 +742,7 @@ h2{
 {
     background-color: white;
     margin-top: 5%;
-    width:265px;
+    width:280px;
     height: 320px;
     border-width: 3px;
     border-style: solid;
