@@ -15,7 +15,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_MainReligion_2022_Chart6.csv"
   },
-    "height": 600,
+    "height": 400,
     "width": 350,
   "mark": {"size": 80, "type": "circle", "color": "darkgreen"},
   "encoding": {
