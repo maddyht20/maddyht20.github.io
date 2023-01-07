@@ -79,7 +79,7 @@
       "transform": [
         {"filter": {"selection": "countrysel"}}
       ],
-      "width": 230
+      "width": 210
     },
 
     {
@@ -131,7 +131,7 @@
         "countrysel": {"type": "single", "empty": "all", "fields": ["Country"]}
       },
 
-      "width": 160
+      "width": 150
     }
   ]
 }
