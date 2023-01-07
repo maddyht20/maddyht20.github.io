@@ -136,7 +136,7 @@
                         </div>
                     </div>
                     <br></br>
-                    <p>Click any data point in Chart 2 to be shown the data for that country on both graphs. Click white space on graph to reset.</p>
+                    <p>Click any data point in Chart 2 to be shown the data for that country on both graphs. Click white space on either graph to reset.</p>
                     <!--Chart 2 - Top 15 countries change in ranking -->
                     <div class="content-box">
                         <div class="chartpr2" id="Chart2"></div>
@@ -156,6 +156,7 @@
                             <a class="clicker" href="https://colab.research.google.com/drive/1j6l8LbuqWfz33WmN2A4AgfAV18-ogS2Z?usp=sharing" target="_blank"><b>Colab (Data Collection)</b></a>
                         </div>
                     </div>
+                <p>Despite the pandemic, the WGI score rose in considerably more countries between 2017 and 2021 than it fell in. The mean WGI score around the world was over 5 percentage points higher in 2021 than in 2017. </p>
                 </div>
             </div>
 
@@ -187,8 +188,9 @@
             <!-- Section with text answering sub question one -->
             <div class="content-box">
                 <div class="maincontents">
-                    <p></p>
-                    <p></p>
+                    <p>To see what variables might be driving the patterns in country-level charitability we saw in the charts above, I merged the CAF data with economic (GDP per capita), social (religion) and demographic (median age) data.</p>
+                    <p>I extracted GDP data from two sources - World Bank, and World Population Review. I scraped this data using Python’s Pandas library tools. The World Bank was an ideal source as I was able to use Python’s World Bank API package to scrape this data, but this had no data for 2022, hence my use of a second source. I scraped data on country-level religiosity levels and median age from Wikipedia and Worldometers, respectively, using the same Colab notebook that contained my CAF data.</p>
+                    <p>I initially tried to create the below Kepler map in Vega in the same way I created Chart 1. However, the desirable feature on Kepler maps is that viewers can hide and unhide data sets, meaning that I could put data for religiosity, median age and GDP per capita on one chart without fearing it would cause information overload.</p>
                     <div class="content-box">
                         <!--Chart 4 - Kepler Chart: GDP, Religiosity and Median Age-->
                         <div id="ChartKepler"></div>
