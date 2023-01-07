@@ -1,7 +1,7 @@
 {  
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "Graph showing countries among the Top 15 most charitable across 2013-2017 (according to the 2018 edition of CAF WGI. The graphs are connected and horizontally concatenated, and share a common legend",
+  "description": "Graph showing countries among the Top 15 most charitable in 2017 (according to the 2018 edition of CAF WGI. The graphs are connected and horizontally concatenated, and share a common legend",
 
 
   "data": {"url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/_CAF_2018-22_WGI_withrank_nona_SHIFTED.csv"},
@@ -78,7 +78,7 @@
       "transform": [
         {"filter": {"selection": "countrysel"}}
       ],
-      "width": 230
+      "width": 210
     },
 
     {
@@ -130,7 +130,7 @@
         "countrysel": {"type": "single", "empty": "all", "fields": ["Country"]}
       },
 
-      "width": 180
+      "width": 170
     }
   ]
 }
