@@ -41,7 +41,8 @@
           "field": "Rank",
           "type": "quantitative",
           "scale": {"domain": [1, 40]},
-          "title": null
+          "sort": "descending",
+          "title": "Ranking (based on WGI score)"
         },
         "tooltip": [
           {"field": "Country"},
@@ -60,7 +61,7 @@
       }],
 
     "title": {
-      "text": "Change in WGI Rank of most charitable countries in 2017",
+      "text": "Change in WGI Ranking of most charitable countries in 2017",
       "fontSize":11,
       "subtitle": [
         "Source: CAF"
@@ -83,7 +84,7 @@
 
     {
       "title": {
-        "text": "Year-on-Year Change in Rank",
+        "text": "Year-on-Year Change in Ranking",
         "subtitle":"Source: CAF",
         "fontSize": 11,
         "subtitleFontStyle": "italic",
@@ -117,11 +118,11 @@
         "y": {
           "field": "YoY_Change",
           "type": "quantitative",
-          "title": null
+          "title": "YoY Change in Ranking"
         },
         "tooltip": [
           {"field": "Country"},
-          {"field": "YoY_Change", "title":"YoY Change in Rank"}
+          {"field": "YoY_Change", "title":"YoY Change in Ranking"}
         ]
       },
 
