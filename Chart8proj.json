@@ -65,7 +65,7 @@
       "mark": {"type": "circle", "color": "#3188cf", "fillOpacity":0.9}
     },
     {
-      "data": {"values": [{"CAF_2022": 41, "Median_Age_2022": 11, "text": "R² = 0.00"}]},
+      "data": {"values": [{"CAF_2022": 40, "Median_Age_2022": 8, "text": "R² = 0.00"}]},
       "mark": {"type": "text", "color": "red", "fontWeight": "normal", "fontSize":12},
       "encoding": {
         "tooltip": null,
