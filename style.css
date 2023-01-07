@@ -217,6 +217,30 @@ a:link:active, a:visited:active {
   font-size:23px;
 }
 
+.content-box-new-2 {
+  box-sizing:border-box;
+  background-color: #363946;
+  width:auto;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  border-color: #6da69a;
+  display:inline-block;
+  margin: 8px;
+  border-style:solid;
+  font-size:18px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+}
+
+.content-box-new-2:hover{
+    background-color: #6da69a;
+    border-color: #363946;
+    opacity: 80%;
+}
+
 .content button{
   width: 140px;
   margin:20px 10px;
