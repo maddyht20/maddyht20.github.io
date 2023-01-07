@@ -614,6 +614,16 @@ h2{
     margin: 0px 20px 0px 20px;
 }
 
+.image4{
+    background-color: white;
+    width: 620px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(161, 159, 204);
+    margin: 0px 20px 0px 20px;
+}
+
 .chartwk
 {
     background-color: white;
