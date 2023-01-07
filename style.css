@@ -442,12 +442,24 @@ footer {
 
 /* ==================== CLICKABLE BUTTONS WITH LINK TO COLAB ETC ================= */
 
-.clickerbox{
+.clickerboxold{
     text-align: center;
     align-items: flex-start;
     display: inline-block;
     width: 1000px;
     margin: 0px 0px 20px 0px;
+} 
+
+.clickerbox{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: auto;
+  padding: 10px;
+  margin: auto;
+  max-width: 85%;
 } 
 
 .clicker{
