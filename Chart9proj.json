@@ -65,7 +65,7 @@
       "mark": {"type": "circle", "color": "#865fa5", "fillOpacity":0.9}
     },
     {
-      "data": {"values": [{"CAF": 37, "Religiosity": 12, "text": "R² = 0.02"}]},
+      "data": {"values": [{"CAF": 39, "Religiosity": 8, "text": "R² = 0.02"}]},
       "mark": {"type": "text", "color": "red", "fontWeight": "normal", "fontSize":12},
       "encoding": {
         "tooltip": null,
