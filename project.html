@@ -81,8 +81,8 @@
                 <div class="maincontents">
                     <p>This project explores global trends in charitable giving to try to understand why some countries’ populations are more charitable than others.</p>
                     <p>There are many factors that might influence how charitable a population is. I chose to explore three – one social (religiosity), one economic (GDP per capita), and one demographic factor (median age).</p>
-                    <p>The analysis performed in this project can be used by policymakers and charities to understand how best to target fundraising efforts.</p>
-                    <p>The World Giving Index (WGI) score, as measured by Charities Aid Foundation (CAF), is the main variable I use to measure how charitable a country is. CAF produce annual WGI Reports that compile results from a yearly survey conducted by Gallup in which a random sample of people in around 120 countries are asked whether they have done any of the following in the past month:</p>
+                    <p>The analysis performed in this project can be used by charities to understand how best to target fundraising efforts.</p>
+                    <p>The World Giving Index (WGI) score, as measured by Charities Aid Foundation (CAF), is the main variable I use to measure how charitable a country is. CAF produce annual WGI Reports that compile results from a yearly survey conducted by Gallup. In this survey, a random sample of people in around 120 countries are asked whether they have done any of the following in the past month:</p>
                     <div class="content-box">
                         <div class="content-box-new">
                             <p>Helped a stranger?</p>
@@ -125,7 +125,7 @@
             <!-- Section with text answering sub question one -->
             <div class="content-box">
                 <div class="maincontents">
-                    <p>Charts 1, 2 and 3 allow us to visualise trends in charitable giving across countries and time. The final four charts explore three potential driving factors behind the global trends. Due to time constraints, this project does not explore reasons behind the temporal trends we see.</p>
+                    <p>Charts 1, 2 and 3 allow us to visualise trends in charitable giving across countries and time. The final four charts explore three potential driving factors behind the global trends. This project does not explore reasons behind the temporal trends we see.</p>
                     <div class="content-box">
                         <div class="content-box-new">
                             <p>Chart 1</p>
@@ -208,8 +208,8 @@
             <div class="content-box">
                 <div class="maincontents">
                     <p>To see what variables might be driving these patterns in country-level charitability, I merged the CAF data with global data on GDP, religion and median age.</p>
-                    <p>I extracted GDP data from World Bank. This was an ideal source as I could use Python’s wbgapi package to scrape this data, and the dataset updates automatically when new data is released. I scraped data on country-level religiosity levels and median age from Wikipedia and Worldometers, respectively.</p>
-                    <p>The Kepler map below employs a bivariate colour-palette to simultaneously capture two variables. I calculated terciles for the variables, forming nine classifications.</p>
+                    <p>I extracted GDP data from World Bank. This was an ideal source as I could use Python’s wbgapi package to scrape this data, and the dataset updates automatically when new data is released. I scraped data on country-level religiosity and median age from Wikipedia and Worldometers, respectively.</p>
+                    <p>The Kepler map below employs a bivariate colour palette to simultaneously capture two variables. I calculated terciles for the variables, forming nine classifications.</p>
                     <div class="content-box">
                         <div class="content-box-new">
                             <p>Chart 4</p>
@@ -242,9 +242,9 @@
                             <p><a href="https://colab.research.google.com/drive/12XNp3PwqYzTwlox4ehn20GEhVAB9IeFE?usp=sharing" target="_blank">Colab (Mapping Median Age)</a></p>
                         </div>
                     </div>
-                    <p>On Kepler maps, viewers can hide data sets, enabling me to include data for religiosity, median age and GDP in one chart without causing information overload.</p>
-                    <p>All nine colours from each of the grids appear on each of the maps, suggesting that GDP per capita, religiosity and median age terciles are poor predictors of a country’s charitable giving tercile. For instance, there are countries that fall into the high religiosity, high WGI tercile, and others that fall into the high religiosity, low WGI tercile.</p>
-                    <p>This sentiment is echoed by the regression charts below, which suggest that not much of the variation in charitable giving across countries is explained by any of the three factors in question (hence their low R^2 scores).</p>            
+                    <p>On Kepler maps, viewers can hide data sets, enabling me to include data for religiosity, median age and GDP in one chart without causing information-overload.</p>
+                    <p>All nine colours from each factor's tercile grid appear on each respective map, suggesting that GDP per capita, religiosity and median age terciles are poor predictors of a country’s charitable giving tercile. For instance, there are countries that fall into the high religiosity, high WGI tercile, and others that fall into the high religiosity, low WGI tercile.</p>
+                    <p>This sentiment is echoed by the regression charts below, which suggest that not much of the variation in charitable giving across countries is explained by any of the three factors (hence their low R^2 scores).</p>            
                     <br></br>
                     <div class="content-box">
                         <div class="content-box-new">
@@ -327,7 +327,7 @@
 
             <div class="content-box">
                 <div class="maincontents">
-                    <p>Charitable giving is largely uncorrelated with GDP per capita, religion and median age. This raises questions about what could be driving the trends. Further research could investigate factors like welfare state and wellbeing on the macro- and micro-level.</p>
+                    <p>Charitable giving is largely uncorrelated with GDP per capita, religion and median age. This raises questions about what could be driving the trends. Further research could investigate factors like welfare state and wellbeing at a macro- and micro-level.</p>
                 </div>
             </div>
 
