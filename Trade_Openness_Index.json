@@ -40,7 +40,7 @@
           "field": "Value", 
           "type": "quantitative", 
           "axis": {"gridOpacity": 1}, 
-          "title": "Trade Openness Index %"},
+          "title": "Trade Openness Index, %"},
       },
 
 
