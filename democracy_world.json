@@ -25,7 +25,8 @@
       "encoding": {
         "tooltip": [
           {"field": "name", "title": "Country"},
-          {"field": "tooltip_democracy_eiu", "title": "Average Sales Tax (%)"}
+          {"field": "tooltip_democracy_eiu", "title": "Democracy Index"},
+          {"field": "GDP", "title": "GDP"}
         ],
         "color": {
           "condition": {
@@ -57,7 +58,7 @@
               "url": "https://raw.githubusercontent.com/maddyht20/maddyht20.github.io/main/Global_democracy_vs_gdp3.csv"
             },
             "key": "Country",
-            "fields": ["democracy_eiu"]
+            "fields": ["democracy_eiu", "GDP"]
           },
           "default": "-0.001"
         },
